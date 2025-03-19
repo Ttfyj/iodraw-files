@@ -120,8 +120,14 @@
         <mxCell id="wWFiFmlXbr6lnnlUJYwl-1" value="Cserver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-2" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wWFiFmlXbr6lnnlUJYwl-2" target="wWFiFmlXbr6lnnlUJYwl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-2" value="start" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1010" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-4" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
