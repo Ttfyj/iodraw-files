@@ -22,8 +22,14 @@
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-4" value="定义动态库加载" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="350" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="A6kxwWsvN39Jmb2jhGKC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A6kxwWsvN39Jmb2jhGKC-6" target="A6kxwWsvN39Jmb2jhGKC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-6" value="DigitalIO" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A6kxwWsvN39Jmb2jhGKC-8" value="CPowerMonitor" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
