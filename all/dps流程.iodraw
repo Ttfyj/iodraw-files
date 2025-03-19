@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="472" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="393" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,7 +134,7 @@
         <mxCell id="wWFiFmlXbr6lnnlUJYwl-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wWFiFmlXbr6lnnlUJYwl-4" target="wWFiFmlXbr6lnnlUJYwl-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-4" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;SetAutoProc&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-4" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(122, 62, 157); font-weight: bold;&quot;&gt;CServer::&lt;/span&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;SetAutoProc&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1010" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wWFiFmlXbr6lnnlUJYwl-11" value="&lt;div style=&quot;color: #333333;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;bAutoProc==true&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -149,8 +149,17 @@
         <mxCell id="wWFiFmlXbr6lnnlUJYwl-14" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;启动&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;m_pThreadCommand&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;线程&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1010" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-16" value="获取redis配置，" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wWFiFmlXbr6lnnlUJYwl-16" target="wWFiFmlXbr6lnnlUJYwl-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-16" value="获取redis配置，传空默认redis_server连接" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-18" value="开启日志线程，运行run" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-19" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(122, 62, 157); font-weight: bold;&quot;&gt;CServer::&lt;/span&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;openPort&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
