@@ -177,8 +177,17 @@
         <mxCell id="vaPBHyRJg1Ene8xjKvYZ-1" value="如果当前线程没有设置为退出返回，则调用&lt;span style=&quot;color: rgb(122, 62, 157); font-weight: bold; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(243, 243, 243);&quot; class=&quot;mtk9 mtkb&quot;&gt;CServer&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(243, 243, 243);&quot; class=&quot;mtk7&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: rgb(170, 55, 49); font-weight: bold; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(243, 243, 243);&quot; class=&quot;mtk11 mtkb&quot;&gt;GetAutoProc&lt;/span&gt;&lt;span style=&quot;color: rgb(119, 119, 119); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; text-align: start; white-space-collapse: preserve; background-color: rgb(243, 243, 243);&quot; class=&quot;mtk7&quot;&gt;()，&lt;/span&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#777777&quot;&gt;&lt;span style=&quot;font-size: 14px; white-space-collapse: preserve; background-color: rgb(243, 243, 243);&quot;&gt;判断是否走自动流程&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vaPBHyRJg1Ene8xjKvYZ-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vaPBHyRJg1Ene8xjKvYZ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vaPBHyRJg1Ene8xjKvYZ-6" target="vaPBHyRJg1Ene8xjKvYZ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vaPBHyRJg1Ene8xjKvYZ-6" value="自动流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vaPBHyRJg1Ene8xjKvYZ-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vaPBHyRJg1Ene8xjKvYZ-8" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
