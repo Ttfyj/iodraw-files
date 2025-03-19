@@ -183,6 +183,9 @@
         <mxCell id="vaPBHyRJg1Ene8xjKvYZ-6" value="自动流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="730" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vaPBHyRJg1Ene8xjKvYZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vaPBHyRJg1Ene8xjKvYZ-7" target="vaPBHyRJg1Ene8xjKvYZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vaPBHyRJg1Ene8xjKvYZ-7" value="Clog::setRunningInfo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="730" width="120" height="60" as="geometry" />
         </mxCell>
