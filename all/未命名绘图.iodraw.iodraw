@@ -4,8 +4,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="A6kxwWsvN39Jmb2jhGKC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="A6kxwWsvN39Jmb2jhGKC-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A6kxwWsvN39Jmb2jhGKC-1" target="A6kxwWsvN39Jmb2jhGKC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A6kxwWsvN39Jmb2jhGKC-1" value="main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A6kxwWsvN39Jmb2jhGKC-2" value="第一步，使用QSharedMemory保证唯一进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
