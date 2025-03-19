@@ -114,51 +114,51 @@
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-39" value="&lt;br&gt;&lt;div style=&quot;color: #333333;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;initSettings&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;和&lt;div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;initHealth是空的&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wWFiFmlXbr6lnnlUJYwl-1" target="wWFiFmlXbr6lnnlUJYwl-2">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wWFiFmlXbr6lnnlUJYwl-1" target="wWFiFmlXbr6lnnlUJYwl-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-1" value="Cserver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-1" value="Cserver" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wWFiFmlXbr6lnnlUJYwl-2" target="wWFiFmlXbr6lnnlUJYwl-4">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wWFiFmlXbr6lnnlUJYwl-2" target="wWFiFmlXbr6lnnlUJYwl-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-2" value="start" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-2" value="start" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1010" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wWFiFmlXbr6lnnlUJYwl-4">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="wWFiFmlXbr6lnnlUJYwl-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1210" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wWFiFmlXbr6lnnlUJYwl-4" target="wWFiFmlXbr6lnnlUJYwl-14">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wWFiFmlXbr6lnnlUJYwl-4" target="wWFiFmlXbr6lnnlUJYwl-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-4" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(122, 62, 157); font-weight: bold;&quot;&gt;CServer::&lt;/span&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;SetAutoProc&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-4" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(122, 62, 157); font-weight: bold;&quot;&gt;CServer::&lt;/span&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;SetAutoProc&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1010" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-11" value="&lt;div style=&quot;color: #333333;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;bAutoProc==true&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-11" value="&lt;div style=&quot;color: #333333;background-color: #f5f5f5;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;bAutoProc==true&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1120" y="170" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-12" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(122, 62, 157); font-weight: bold;&quot;&gt;CServer::&lt;/span&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;InitDeviceStartSMPTime&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-12" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(122, 62, 157); font-weight: bold;&quot;&gt;CServer::&lt;/span&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;InitDeviceStartSMPTime&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wWFiFmlXbr6lnnlUJYwl-14" target="wWFiFmlXbr6lnnlUJYwl-16">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wWFiFmlXbr6lnnlUJYwl-14" target="wWFiFmlXbr6lnnlUJYwl-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-14" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;启动&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;m_pThreadCommand&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;线程&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-14" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;启动&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;m_pThreadCommand&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #7a3e9d;&quot;&gt;线程&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1010" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wWFiFmlXbr6lnnlUJYwl-16" target="wWFiFmlXbr6lnnlUJYwl-19">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wWFiFmlXbr6lnnlUJYwl-16" target="wWFiFmlXbr6lnnlUJYwl-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-16" value="获取redis配置，传空默认redis_server连接" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-16" value="获取redis配置，传空默认redis_server连接" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="810" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-18" value="开启日志线程，运行run" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-18" value="开启日志线程，运行run" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wWFiFmlXbr6lnnlUJYwl-19" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(122, 62, 157); font-weight: bold;&quot;&gt;CServer::&lt;/span&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;openPort&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wWFiFmlXbr6lnnlUJYwl-19" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(122, 62, 157); font-weight: bold;&quot;&gt;CServer::&lt;/span&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;openPort&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="810" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
