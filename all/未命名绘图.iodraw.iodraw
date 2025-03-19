@@ -16,8 +16,14 @@
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-2" value="第一步，使用QSharedMemory保证唯一进程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="210" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="A6kxwWsvN39Jmb2jhGKC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A6kxwWsvN39Jmb2jhGKC-4" target="A6kxwWsvN39Jmb2jhGKC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-4" value="定义动态库加载" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A6kxwWsvN39Jmb2jhGKC-6" value="DigitalIO" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
