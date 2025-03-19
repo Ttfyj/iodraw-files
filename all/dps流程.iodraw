@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="472" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="555" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,7 +186,7 @@
         <mxCell id="vaPBHyRJg1Ene8xjKvYZ-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="730" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vaPBHyRJg1Ene8xjKvYZ-8" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="vaPBHyRJg1Ene8xjKvYZ-8" value="&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #7a3e9d;font-weight: bold;&quot;&gt;CServer&lt;/span&gt;&lt;span style=&quot;color: #777777;&quot;&gt;::&lt;/span&gt;&lt;span style=&quot;color: #aa3731;font-weight: bold;&quot;&gt;DispatchAllDev&lt;/span&gt;&lt;span style=&quot;color: #777777;&quot;&gt;()&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(51, 51, 51); background-color: rgb(245, 245, 245); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #aaaaaa;font-style: italic;&quot;&gt;&amp;nbsp;循环所有设备，并走自动流程&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #aaaaaa;font-style: italic;&quot;&gt;&amp;nbsp;* 自动流程：状态查询 启动处理 结果数据和谱图处理 报警 时钟同步&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #aaaaaa;font-style: italic;&quot;&gt;&amp;nbsp;* 如果有外部请求，就退出本次循环&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #aaaaaa;font-style: italic;&quot;&gt;&amp;nbsp;* 如果未激活，就跳过该设备&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #aaaaaa;font-style: italic;&quot;&gt;&amp;nbsp;* 返回值 ---- int&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
