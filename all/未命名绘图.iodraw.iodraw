@@ -31,8 +31,8 @@
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-8" value="CPowerMonitor" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A6kxwWsvN39Jmb2jhGKC-10" value="TK100" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="310" y="110" width="70" height="40" as="geometry" />
+        <mxCell id="A6kxwWsvN39Jmb2jhGKC-11" value="CPowerMonitor" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
