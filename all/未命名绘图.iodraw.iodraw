@@ -49,7 +49,7 @@
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-14" value="开启日志线程，运行run" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="A6kxwWsvN39Jmb2jhGKC-16" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="A6kxwWsvN39Jmb2jhGKC-16" value="读取了配置信息，创建了redis_log&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
