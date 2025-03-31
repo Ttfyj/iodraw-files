@@ -25,14 +25,11 @@
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A6kxwWsvN39Jmb2jhGKC-6" target="A6kxwWsvN39Jmb2jhGKC-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LRY_XwZ-jstXK8HR_1DR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="A6kxwWsvN39Jmb2jhGKC-6" target="A6kxwWsvN39Jmb2jhGKC-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-6" value="DigitalIO" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-760" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-8" value="CPowerMonitor" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="600" width="120" height="60" as="geometry" />
+          <mxGeometry x="-670" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A6kxwWsvN39Jmb2jhGKC-11" target="A6kxwWsvN39Jmb2jhGKC-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
