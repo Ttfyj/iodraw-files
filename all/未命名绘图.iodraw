@@ -302,8 +302,14 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-96" value="调用CDataAccess::&lt;div&gt;getGDBPointer()-&amp;gt;saveDevStartTime向数据库中设置nStartUpTime（参数）&lt;/div&gt;&lt;div&gt;设置成功但会true，否则false&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1200" y="600" width="130" height="180" as="geometry" />
         </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-98" target="i_-HZV3uRlSOMqe9TSmQ-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-98" value="//获取设备状态，判断设备是否忙&lt;div&gt;GetDeviceBusy_DPS&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-100" value="GetStartUpBookingTime_DPS" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1400" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
