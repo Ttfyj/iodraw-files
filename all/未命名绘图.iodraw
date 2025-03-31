@@ -293,11 +293,17 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-94" target="i_-HZV3uRlSOMqe9TSmQ-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-94" target="i_-HZV3uRlSOMqe9TSmQ-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-94" value="//设置设备本次启动时间&lt;div&gt;SetLastStartUpTime_DPS&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1420" y="600" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-96" value="调用CDataAccess::&lt;div&gt;getGDBPointer()-&amp;gt;saveDevStartTime向数据库中设置nStartUpTime（参数）&lt;/div&gt;&lt;div&gt;设置成功但会true，否则false&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1200" y="600" width="130" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-98" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1400" y="740" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
