@@ -269,7 +269,7 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-83" target="i_-HZV3uRlSOMqe9TSmQ-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-83" value="*nInterval不足一小时算一小时&lt;div&gt;*nInterval = pDevice-&amp;gt;GetInterval() / 60;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-83" value="通过迭代器迭代设备列表将采样周期赋值给*nInterval&lt;div&gt;不足一小时算一小时&lt;div&gt;*nInterval = pDevice-&amp;gt;GetInterval() / 60;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1200" y="290" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-85" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
