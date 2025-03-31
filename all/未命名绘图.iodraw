@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="1292" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1222" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,7 +212,7 @@
         <mxCell id="LRY_XwZ-jstXK8HR_1DR-3" value="DigitalIO类" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-540" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LRY_XwZ-jstXK8HR_1DR-5" value="CPowerMonitor" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LRY_XwZ-jstXK8HR_1DR-5" value="CPowerMonitor myApp" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-760" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LRY_XwZ-jstXK8HR_1DR-7" value="构造：&lt;div&gt;&amp;nbsp; &amp;nbsp; m_strFileName = &quot;pci2307.dll&quot;;&lt;br&gt;&lt;div&gt;m_bValid = TRUE;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; m_hDevice = NULL;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; m_nOutCode = 0;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
