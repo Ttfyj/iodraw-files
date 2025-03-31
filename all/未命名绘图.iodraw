@@ -263,11 +263,17 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-79" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//获取设备采样周期GetInterval = GetInterval_DPS;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="320" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-83" target="i_-HZV3uRlSOMqe9TSmQ-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-83" value="不足一小时算一小时&lt;div&gt;*nInterval = pDevice-&amp;gt;GetInterval() / 60;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1200" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-85" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1265" y="318" width="50" height="30" as="geometry" />
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-85" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1260.5" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-86" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="170" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
