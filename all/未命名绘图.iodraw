@@ -284,8 +284,8 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-90" value="从数据库获取时间赋值给：nLastStartUpTime；成功为实际时间，失败为0&lt;div&gt;问题：loadDevStartTime创建了局部锁，有啥用？？&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1200" y="420" width="120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-92" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1200" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-92" value="问题1：2.5小时算2小数？&lt;div&gt;问题2：每个设备的采样周期是一致的？为什么迭代设备列表将值赋给int*&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
