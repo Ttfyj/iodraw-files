@@ -257,8 +257,14 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-77" value="&lt;div&gt;//初始化“启动策略”模块&lt;br&gt;&lt;/div&gt;initStartUp();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-79" value="GetInterval = GetInterval_DPS;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-79" target="i_-HZV3uRlSOMqe9TSmQ-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-79" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//获取设备采样周期GetInterval = GetInterval_DPS;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-83" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
