@@ -220,6 +220,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="LRY_XwZ-jstXK8HR_1DR-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LRY_XwZ-jstXK8HR_1DR-5" target="LRY_XwZ-jstXK8HR_1DR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LRY_XwZ-jstXK8HR_1DR-5" value="CPowerMonitor myApp" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-760" y="740" width="120" height="60" as="geometry" />
         </mxCell>
@@ -240,6 +243,9 @@
             <mxGeometry x="-920" y="740" width="140" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="LRY_XwZ-jstXK8HR_1DR-17" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
