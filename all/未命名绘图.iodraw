@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,28 +8,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-1" value="main" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A6kxwWsvN39Jmb2jhGKC-2" target="A6kxwWsvN39Jmb2jhGKC-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-2" value="第一步，使用QSharedMemory保证唯一进程" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A6kxwWsvN39Jmb2jhGKC-4" target="A6kxwWsvN39Jmb2jhGKC-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-4" value="定义动态库加载" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A6kxwWsvN39Jmb2jhGKC-6" target="A6kxwWsvN39Jmb2jhGKC-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-6" value="DigitalIO" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-8" value="CPowerMonitor" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="A6kxwWsvN39Jmb2jhGKC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="A6kxwWsvN39Jmb2jhGKC-11" target="A6kxwWsvN39Jmb2jhGKC-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
