@@ -290,7 +290,7 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-92" value="问题1：2.5小时算2小数？&lt;div&gt;问题2：每个设备的采样周期是一致的？为什么迭代设备列表将值赋给int*&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1200" y="150" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-94" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-94" value="//设置设备本次启动时间&lt;div&gt;SetLastStartUpTime_DPS&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
