@@ -263,7 +263,7 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-79" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//获取设备采样周期GetInterval = GetInterval_DPS;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-83" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-83" value="不足一小时算一小时&lt;div&gt;*nInterval = pDevice-&amp;gt;GetInterval() / 60;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1200" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
