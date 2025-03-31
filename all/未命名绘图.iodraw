@@ -284,8 +284,8 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-88" value="//获取设备上次启动时间GetLastStartUpTime_DPS" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1430" y="460" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-90" value="loadDevStartTime创建了局部锁，有啥用？？" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1200" y="420" width="120" height="100" as="geometry" />
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-90" value="从数据库获取时间赋值给：nLastStartUpTime；成功为实际时间，失败为0&lt;div&gt;问题：loadDevStartTime创建了局部锁，有啥用？？&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="420" width="120" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
