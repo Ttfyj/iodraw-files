@@ -232,7 +232,7 @@
         <mxCell id="LRY_XwZ-jstXK8HR_1DR-13" value="CPowerMonitor" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-540" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LRY_XwZ-jstXK8HR_1DR-14" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LRY_XwZ-jstXK8HR_1DR-14" value="2s后打印日志，退出线程，再2s后退出时间循环关闭程序" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1070" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <UserObject label="false == myApp.init()" link="false == myApp.init()" id="LRY_XwZ-jstXK8HR_1DR-16">
