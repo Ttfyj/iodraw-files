@@ -320,8 +320,14 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-104" value="。。。" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="970" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-106" target="i_-HZV3uRlSOMqe9TSmQ-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-106" value="启动日志线程&lt;div&gt;m_pThreadLogSave-&amp;gt;start();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-108" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
