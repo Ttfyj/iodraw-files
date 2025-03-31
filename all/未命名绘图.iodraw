@@ -368,7 +368,7 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-122" value="创建表结构" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1200" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-126" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-126" value="修改俩表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="1700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
