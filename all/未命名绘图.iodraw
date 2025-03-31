@@ -375,7 +375,7 @@
           <mxGeometry x="-1400" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-128" value="CServer::getGServerPointer()-&amp;gt;loadAllPort(CServer::getConfigDBPath()) &amp;lt;= 0" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1400" y="1730" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1460" y="1730" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
