@@ -221,8 +221,8 @@
         <mxCell id="LRY_XwZ-jstXK8HR_1DR-11" value="window类" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-540" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LRY_XwZ-jstXK8HR_1DR-12" value="window" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="620" width="120" height="60" as="geometry" />
+        <mxCell id="LRY_XwZ-jstXK8HR_1DR-13" value="CPowerMonitor" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
