@@ -347,11 +347,17 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-116" target="i_-HZV3uRlSOMqe9TSmQ-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-116" target="i_-HZV3uRlSOMqe9TSmQ-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-116" value="//将所有数据库文件的目录设置为默认值&lt;div&gt;CServer::getGServerPointer()-&amp;gt;setDBFileDefaultPath();&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1452.5" y="1390" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-118" value="设置4个DB文件路径为当前可执行文件目录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1195" y="1390" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1195" y="1390" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-120" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1400" y="1530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
