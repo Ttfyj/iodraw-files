@@ -203,8 +203,8 @@
         <mxCell id="vaPBHyRJg1Ene8xjKvYZ-10" value="Cserver::ProCmd" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="827" y="1010" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LRY_XwZ-jstXK8HR_1DR-3" value="DigitalIO" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-560" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="LRY_XwZ-jstXK8HR_1DR-3" value="DigitalIO类" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
