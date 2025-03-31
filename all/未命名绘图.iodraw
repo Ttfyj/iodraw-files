@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="2464" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1966" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,7 +235,7 @@
           <mxGeometry x="-540" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LRY_XwZ-jstXK8HR_1DR-14" value="2s后打印日志，退出线程，再2s后退出时间循环关闭程序" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1060" y="880" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1040" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <UserObject label="false == myApp.init()" link="false == myApp.init()" id="LRY_XwZ-jstXK8HR_1DR-16">
           <mxCell style="text;whiteSpace=wrap;" parent="1" vertex="1">
