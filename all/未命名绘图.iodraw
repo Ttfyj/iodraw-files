@@ -260,6 +260,9 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-79" target="i_-HZV3uRlSOMqe9TSmQ-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-79" target="i_-HZV3uRlSOMqe9TSmQ-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-79" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//获取设备采样周期GetInterval = GetInterval_DPS;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1400" y="320" width="120" height="60" as="geometry" />
         </mxCell>
@@ -274,6 +277,15 @@
         </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-86" value="2.5小时算2？？" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1180" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-88" target="i_-HZV3uRlSOMqe9TSmQ-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-88" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1400" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-90" value="loadDevStartTime创建了局部锁，有啥用？？" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
