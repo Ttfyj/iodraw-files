@@ -216,7 +216,7 @@
           <mxGeometry x="-760" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LRY_XwZ-jstXK8HR_1DR-7" value="构造：&lt;div&gt;m_bValid = TRUE;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; m_hDevice = NULL;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; m_nOutCode = 0;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="5" width="180" height="130" as="geometry" />
+          <mxGeometry x="-340" y="1" width="180" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
