@@ -242,7 +242,7 @@
             <mxGeometry x="-910" y="890" width="140" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="LRY_XwZ-jstXK8HR_1DR-17" value="myApp.init()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="LRY_XwZ-jstXK8HR_1DR-17" value="// 创建日志发送和接收、及处理线程myApp.init()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-760" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
