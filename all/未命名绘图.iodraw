@@ -387,7 +387,7 @@
           <mxGeometry x="-1200" y="1715" width="210" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-1" value="CServer::getGServerPointer()-&amp;gt;loadAllDev(CServer::getConfigDBPath()) &amp;lt;= 0&lt;div&gt;CDataAccess::getGDBPointer()-&amp;gt;loadDev(szConfigFile, m_vDev);&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1460" y="1930" width="270" height="60" as="geometry" />
+          <mxGeometry x="-1467.5" y="1930" width="255" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
