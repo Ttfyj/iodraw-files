@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="2006" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4261" dy="1535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,142 +245,142 @@
         <mxCell id="LRY_XwZ-jstXK8HR_1DR-17" value="// 创建日志发送和接收、及处理线程myApp.init()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-760" y="880" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-76" target="i_-HZV3uRlSOMqe9TSmQ-77">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-76" target="i_-HZV3uRlSOMqe9TSmQ-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-76" value="myApp.init()&lt;div&gt;CPowerMonitor::init()&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-76" value="myApp.init()&lt;div&gt;CPowerMonitor::init()&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-77" target="i_-HZV3uRlSOMqe9TSmQ-79">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-77" target="i_-HZV3uRlSOMqe9TSmQ-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-77" value="&lt;div&gt;//初始化“启动策略”模块&lt;br&gt;&lt;/div&gt;initStartUp();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-77" value="&lt;div&gt;//初始化“启动策略”模块&lt;br&gt;&lt;/div&gt;initStartUp();" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-79" target="i_-HZV3uRlSOMqe9TSmQ-83">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-79" target="i_-HZV3uRlSOMqe9TSmQ-83" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-79" target="i_-HZV3uRlSOMqe9TSmQ-88">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-79" target="i_-HZV3uRlSOMqe9TSmQ-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-79" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//获取设备采样周期GetInterval = GetInterval_DPS;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-79" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;//获取设备采样周期GetInterval = GetInterval_DPS;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-83" target="i_-HZV3uRlSOMqe9TSmQ-92">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-83" target="i_-HZV3uRlSOMqe9TSmQ-92" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-83" value="通过迭代器迭代设备列表将采样周期赋值给*nInterval&lt;div&gt;不足一小时算一小时&lt;div&gt;*nInterval = pDevice-&amp;gt;GetInterval() / 60;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-83" value="通过迭代器迭代设备列表将采样周期赋值给*nInterval&lt;div&gt;不足一小时算一小时&lt;div&gt;*nInterval = pDevice-&amp;gt;GetInterval() / 60;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="290" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-85" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-85" value="true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1260.5" y="320" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-88" target="i_-HZV3uRlSOMqe9TSmQ-90">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-88" target="i_-HZV3uRlSOMqe9TSmQ-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-88" target="i_-HZV3uRlSOMqe9TSmQ-94">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-88" target="i_-HZV3uRlSOMqe9TSmQ-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-88" value="//获取设备上次启动时间GetLastStartUpTime_DPS" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-88" value="//获取设备上次启动时间GetLastStartUpTime_DPS" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1430" y="460" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-90" value="从数据库获取时间赋值给：nLastStartUpTime；成功为实际时间，失败为0&lt;div&gt;问题：loadDevStartTime创建了局部锁，有啥用？？&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-90" value="从数据库获取时间赋值给：nLastStartUpTime；成功为实际时间，失败为0&lt;div&gt;问题：loadDevStartTime创建了局部锁，有啥用？？&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="420" width="120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-92" value="问题1：2.5小时算2小数？&lt;div&gt;问题2：每个设备的采样周期是一致的？为什么迭代设备列表将值赋给int*&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-92" value="问题1：2.5小时算2小数？&lt;div&gt;问题2：每个设备的采样周期是一致的？为什么迭代设备列表将值赋给int*&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="150" width="120" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-94" target="i_-HZV3uRlSOMqe9TSmQ-96">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-94" target="i_-HZV3uRlSOMqe9TSmQ-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-94" target="i_-HZV3uRlSOMqe9TSmQ-98">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-94" target="i_-HZV3uRlSOMqe9TSmQ-98" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-94" value="//设置设备本次启动时间&lt;div&gt;SetLastStartUpTime_DPS&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-94" value="//设置设备本次启动时间&lt;div&gt;SetLastStartUpTime_DPS&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1420" y="600" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-96" value="调用CDataAccess::&lt;div&gt;getGDBPointer()-&amp;gt;saveDevStartTime向数据库中设置nStartUpTime（参数）&lt;/div&gt;&lt;div&gt;设置成功但会true，否则false&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-96" value="调用CDataAccess::&lt;div&gt;getGDBPointer()-&amp;gt;saveDevStartTime向数据库中设置nStartUpTime（参数）&lt;/div&gt;&lt;div&gt;设置成功但会true，否则false&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="600" width="130" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-98" target="i_-HZV3uRlSOMqe9TSmQ-100">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-98" target="i_-HZV3uRlSOMqe9TSmQ-100" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-98" value="//获取设备状态，判断设备是否忙&lt;div&gt;GetDeviceBusy_DPS&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-98" value="//获取设备状态，判断设备是否忙&lt;div&gt;GetDeviceBusy_DPS&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="740" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-100" target="i_-HZV3uRlSOMqe9TSmQ-104">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-100" target="i_-HZV3uRlSOMqe9TSmQ-104" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-100" value="//获取设备预约启动时间&lt;div&gt;GetStartUpBookingTime_DPS&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-100" value="//获取设备预约启动时间&lt;div&gt;GetStartUpBookingTime_DPS&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1435" y="880" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-104" target="i_-HZV3uRlSOMqe9TSmQ-106">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-104" target="i_-HZV3uRlSOMqe9TSmQ-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-104" value="。。。" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-104" value="。。。" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="970" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-106" target="i_-HZV3uRlSOMqe9TSmQ-108">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-106" target="i_-HZV3uRlSOMqe9TSmQ-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-106" target="i_-HZV3uRlSOMqe9TSmQ-112">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-106" target="i_-HZV3uRlSOMqe9TSmQ-112" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-106" value="启动日志线程&lt;div&gt;m_pThreadLogSave-&amp;gt;start();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-106" value="启动日志线程&lt;div&gt;m_pThreadLogSave-&amp;gt;start();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-108" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-108" value="" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-112" target="i_-HZV3uRlSOMqe9TSmQ-114">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-112" target="i_-HZV3uRlSOMqe9TSmQ-114" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-112" target="i_-HZV3uRlSOMqe9TSmQ-116">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-112" target="i_-HZV3uRlSOMqe9TSmQ-116" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-112" value="//初始化所有数据库文件的目录&lt;div&gt;CServer::getGServerPointer()-&amp;gt;initDBFilePath()&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-112" value="//初始化所有数据库文件的目录&lt;div&gt;CServer::getGServerPointer()-&amp;gt;initDBFilePath()&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1440" y="1250" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-114" value="没有配置文件，函数直接返回-1" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-114" value="没有配置文件，函数直接返回-1" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-116" target="i_-HZV3uRlSOMqe9TSmQ-118">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-116" target="i_-HZV3uRlSOMqe9TSmQ-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-116" target="i_-HZV3uRlSOMqe9TSmQ-120">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-116" target="i_-HZV3uRlSOMqe9TSmQ-120" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-116" value="//将所有数据库文件的目录设置为默认值&lt;div&gt;CServer::getGServerPointer()-&amp;gt;setDBFileDefaultPath();&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-116" value="//将所有数据库文件的目录设置为默认值&lt;div&gt;CServer::getGServerPointer()-&amp;gt;setDBFileDefaultPath();&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1452.5" y="1390" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-118" value="设置4个DB文件路径为当前可执行文件目录" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-118" value="设置4个DB文件路径为当前可执行文件目录" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1195" y="1390" width="125" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-120" target="i_-HZV3uRlSOMqe9TSmQ-122">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-120" target="i_-HZV3uRlSOMqe9TSmQ-122" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-120" target="i_-HZV3uRlSOMqe9TSmQ-126">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-120" target="i_-HZV3uRlSOMqe9TSmQ-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-120" value="//导入配置信息&lt;div&gt;bool CServer::loadconfig()&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建日志表失败返回-1，结束该函数&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-120" value="//导入配置信息&lt;div&gt;bool CServer::loadconfig()&lt;br&gt;&lt;/div&gt;&lt;div&gt;创建日志表失败返回-1，结束该函数&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="1530" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-122" value="创建表结构" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-122" value="创建表结构" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-126" target="i_-HZV3uRlSOMqe9TSmQ-128">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-129" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-126" target="i_-HZV3uRlSOMqe9TSmQ-128" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-126" value="修改俩表，然后先加载端口表，再加载设备表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-126" value="修改俩表，然后先加载端口表，再加载设备表" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="1630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-128" target="i_-HZV3uRlSOMqe9TSmQ-130">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-128" target="i_-HZV3uRlSOMqe9TSmQ-130" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-128" value="CServer::getGServerPointer()-&amp;gt;loadAllPort(CServer::getConfigDBPath()) &amp;lt;= 0&lt;div&gt;（CDataAccess::getGDBPointer()-&amp;gt;loadPort(szFileName, m_mapPort);）&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-128" value="CServer::getGServerPointer()-&amp;gt;loadAllPort(CServer::getConfigDBPath()) &amp;lt;= 0&lt;div&gt;（CDataAccess::getGDBPointer()-&amp;gt;loadPort(szFileName, m_mapPort);）&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1455" y="1730" width="230" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-130" value="nLogMaxNum=300000&lt;div&gt;logvacuumData函数啥也没干&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="i_-HZV3uRlSOMqe9TSmQ-130" value="nLogMaxNum=300000&lt;div&gt;logvacuumData函数啥也没干&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1200" y="1630" width="210" height="290" as="geometry" />
         </mxCell>
       </root>
