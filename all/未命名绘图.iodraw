@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="2264" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2874" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -405,7 +405,7 @@
           <mxGeometry x="-1470" y="2278" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-7" value="弄了个迭代器，根据不同设备调用不同逻辑的loadcfg函数&lt;div&gt;CDeviceTROM::loadcfg()-&amp;gt;&lt;/div&gt;&lt;div&gt;1、获取trom_information中type=1、devicetype=1的code和information&lt;/div&gt;&lt;div&gt;2、&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1170" y="2278" width="210" height="60" as="geometry" />
+          <mxGeometry x="-1170" y="2278" width="210" height="432" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
