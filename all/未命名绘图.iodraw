@@ -377,11 +377,17 @@
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-128" target="i_-HZV3uRlSOMqe9TSmQ-130" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-9heCfVYcBA6hiCnGq74-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i_-HZV3uRlSOMqe9TSmQ-128" target="-9heCfVYcBA6hiCnGq74-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-128" value="CServer::getGServerPointer()-&amp;gt;loadAllPort(CServer::getConfigDBPath()) &amp;lt;= 0&lt;div&gt;（CDataAccess::getGDBPointer()-&amp;gt;loadPort(szFileName, m_mapPort);）&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1455" y="1730" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="i_-HZV3uRlSOMqe9TSmQ-130" value="nLogMaxNum=300000&lt;div&gt;logvacuumData函数啥也没干&lt;div&gt;获取configDB的路径&lt;/div&gt;&lt;/div&gt;&lt;div&gt;查tromchannel表，根据通讯类型去进行对应方式存储&lt;/div&gt;&lt;div&gt;设置端口类型并将其置为不可用状态&lt;/div&gt;&lt;div&gt;将值赋给m_comAttr&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1200" y="1780" width="210" height="140" as="geometry" />
+          <mxGeometry x="-1200" y="1715" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-9heCfVYcBA6hiCnGq74-1" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1400" y="1945" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
