@@ -392,8 +392,8 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-1" value="CServer::getGServerPointer()-&amp;gt;loadAllDev(CServer::getConfigDBPath()) &amp;lt;= 0&lt;div&gt;CDataAccess::getGDBPointer()-&amp;gt;loadDev(szConfigFile, m_vDev);&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1467.5" y="1930" width="255" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-3" value="打开configDB&lt;div&gt;查询trom_device&lt;/div&gt;&lt;div&gt;其中，nPortType为表trom_channel中对应channelID的类型，如果没有，则是1&lt;/div&gt;&lt;div&gt;nAlarmGroup&amp;lt;1---&amp;gt;1&lt;br&gt;&lt;/div&gt;&lt;div&gt;nAlarmGroup&amp;gt;8--&amp;gt;8&lt;br&gt;&lt;/div&gt;&lt;div&gt;接着通过nChannelID去找端口列表m_mapPort中对应的port，如果找到了，根据设备类型建立对应的设备&lt;/div&gt;&lt;div&gt;设置设备基本信息，如端口类型、ID&lt;/div&gt;&lt;div&gt;根据设备类型，修改不同的采样周期&lt;/div&gt;&lt;div&gt;trom为nInterval * 60&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1190" y="1870" width="210" height="200" as="geometry" />
+        <mxCell id="-9heCfVYcBA6hiCnGq74-3" value="打开configDB&lt;div&gt;查询trom_device&lt;/div&gt;&lt;div&gt;其中，nPortType为表trom_channel中对应channelID的类型，如果没有，则是1&lt;/div&gt;&lt;div&gt;nAlarmGroup&amp;lt;1---&amp;gt;1&lt;br&gt;&lt;/div&gt;&lt;div&gt;nAlarmGroup&amp;gt;8--&amp;gt;8&lt;br&gt;&lt;/div&gt;&lt;div&gt;接着通过nChannelID去找端口列表m_mapPort中对应的port，如果找到了，根据设备类型建立对应的设备&lt;/div&gt;&lt;div&gt;设置设备基本信息，如端口类型、ID&lt;/div&gt;&lt;div&gt;根据设备类型，修改不同的采样周期和原始周期：&lt;span style=&quot;background-color: initial;&quot;&gt;trom为nInterval * 60&lt;/span&gt;&lt;/div&gt;&lt;div&gt;设置警戒周期为：nIntervalCau * 60&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; m_bFirstModifyInterval = true;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; m_bModifyIntervalOK = false;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;等等，将对应参数设置到对应设备&lt;/div&gt;&lt;div&gt;其中：&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="1870" width="210" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
