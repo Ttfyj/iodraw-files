@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="2235" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2142" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -404,7 +404,7 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-5" value="//导入设备其他信息CServer::getGServerPointer()-&amp;gt;loadAllDevcfg(CServer::getConfigDBPath()&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1470" y="2278" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-7" value="弄了个迭代器，根据不同设备调用不同逻辑的loadcfg函数&lt;div&gt;CDeviceTROM::loadcfg()-&amp;gt;&lt;/div&gt;&lt;div&gt;1、获取trom_information中type=1、devicetype=1的code和information&lt;/div&gt;&lt;div&gt;2、&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-9heCfVYcBA6hiCnGq74-7" value="弄了个迭代器，根据不同设备调用不同逻辑的loadcfg函数&lt;div&gt;CDeviceTROM::loadcfg()-&amp;gt;&lt;/div&gt;&lt;div&gt;1、获取trom_information中type=0或type=1、devicetype=1的code和information&lt;/div&gt;&lt;div&gt;2、获取谱图产生时间m_nWaveFileTime（没有就是0）&lt;/div&gt;&lt;div&gt;3、获取生成谱图文件序号&lt;/div&gt;&lt;div&gt;m_nWaveFileNum&lt;br&gt;&lt;/div&gt;&lt;div&gt;4、同理获取谱图产生时间m_nLogFileTime和文件序号m_nLogFileNum&lt;/div&gt;&lt;div&gt;5、获取设备启动次数使能状态m_nSmpTimesEn&lt;/div&gt;&lt;div&gt;6获取设备启动次数m_nSmpTimes&lt;/div&gt;&lt;div&gt;7、获取设备还剩下启动的次数m_nSmpTimes1&lt;/div&gt;&lt;div&gt;8、非停机告警是否要改-99999，0: 不改 1：改 (网页定值)m_nAlmswitch&lt;/div&gt;&lt;div&gt;9、获取设备数据数量m_ndataNum&lt;/div&gt;&lt;div&gt;10、获取设备版本选择0:正常阿二1:高可靠&amp;nbsp; (定值)m_nVerChoose&lt;/div&gt;&lt;div&gt;11、判断设备接收数据标志 0 正常流程 1 CSV数据源m_nrecedata&lt;/div&gt;&lt;div&gt;m_nrecedata==1代表着需要用模拟器上送csv数据&lt;br&gt;&lt;/div&gt;&lt;div&gt;12、获取设备招测数据标记m_ndataRecord，不管怎么样，最后m_ndataRecord结果为1&lt;/div&gt;&lt;div&gt;13、如果剩余启动次数大于1，那么就将m_nSmpTimesEn=1&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1170" y="2278" width="210" height="432" as="geometry" />
         </mxCell>
       </root>
