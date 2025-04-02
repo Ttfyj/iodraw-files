@@ -416,7 +416,7 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-9" value="CDevice::loadInfoTbl(m_qsIEDName)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1452.5" y="3180" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-11" value="1、读取../MMSSRV/startup.cfg中的iedname并赋值给s_qsIEDName 和 qsIEDName（window要准备好路径文件）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-9heCfVYcBA6hiCnGq74-11" value="1、读取../MMSSRV/startup.cfg中的iedname并赋值给s_qsIEDName 和 qsIEDName（window版本要准备好路径文件）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1170" y="3180" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
