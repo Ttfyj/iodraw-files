@@ -457,6 +457,17 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-28" value="CServer::getGServerPointer()-&amp;gt;clearRedisData()&lt;div&gt;遍历设备列表，清楚key：&quot;SCAC:HSTAT:%1&quot;的redis实时数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1684.5" y="4590" width="335" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-9heCfVYcBA6hiCnGq74-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9heCfVYcBA6hiCnGq74-31" target="-9heCfVYcBA6hiCnGq74-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1390" y="3690" />
+              <mxPoint x="-1390" y="3750" />
+              <mxPoint x="-1400" y="3750" />
+              <mxPoint x="-1400" y="3740" />
+              <mxPoint x="-1517" y="3740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-31" value="数据类型" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1380" y="3650" width="80" height="80" as="geometry" />
         </mxCell>
