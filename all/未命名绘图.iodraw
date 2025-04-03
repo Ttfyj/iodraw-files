@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="3134" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3022" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -358,8 +358,14 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-18" value="&lt;span style=&quot;text-align: left;&quot;&gt;CThreadCommand*&amp;nbsp; &amp;nbsp;m_pThreadCommand;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;// （界面）指令处理线程&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="40" width="310" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-19" value="CThreadCommand::run()&lt;div&gt;读取settingsxml中的redis_ip到szRedisIP（默认127.0.0.1）中&lt;/div&gt;&lt;div&gt;读取settingsxml中的redis_port到szRedisPort（默认6379）中&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-19" target="5A3cxButrTnUzjdrOxAY-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-19" value="CThreadCommand::run()&lt;div&gt;读取settingsxml中的redis_ip到szRedisIP（默认127.0.0.1）中&lt;/div&gt;&lt;div&gt;读取settingsxml中的redis_port到szRedisPort（默认6379）中&lt;br&gt;&lt;/div&gt;&lt;div&gt;尝试连接redis，重试次数6，失败睡眠10s&lt;/div&gt;&lt;div&gt;打开通讯端口CServer::getGServerPointer()-&amp;gt;openPort()&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80.63" y="155" width="328.75" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-21" value="CServer::openPort()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="593.755" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
