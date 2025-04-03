@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="3225" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3264" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -476,7 +476,7 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-35" value="如果数据目的地是Msg Queue，CServer::getGServerPointer()-&amp;gt;initSettings();&lt;div&gt;遍历设备列表m_vDev,对于每一个设备CDevice：&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(*it)-&amp;gt;initSettings();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(*it)-&amp;gt;initHealth();&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1292.5" y="3760" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-38" value="初始化定值&lt;div&gt;void CDeviceTROM::initSettings()&lt;/div&gt;&lt;div&gt;CDataHandlerTROM*p&amp;nbsp; = dynamic_cast&amp;lt;CDataHandlerTROM*&amp;gt;(m_pDataHandler);&lt;br&gt;&lt;/div&gt;&lt;div&gt;加载configdb中表trom_deviceDataParam部分数据到cal_caution与cal_caution1中，类型float【20】&lt;/div&gt;&lt;div&gt;遍历定值表，对每一项：&lt;/div&gt;&lt;div&gt;拼出s_mapLN[TROM]+GetInst()+leaf+setVal&lt;/div&gt;&lt;div&gt;如：&quot;SIML1$SG$THyAlmThd1$setVal&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;GetInst()由CParam构造默认置1&lt;br&gt;&lt;/div&gt;&lt;div&gt;其中：对于dU==“SmpProd”的定值，如果谱图类型m_nDatFileType==2，周期m_nInterval不变，否则m_nInterval*60&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-9heCfVYcBA6hiCnGq74-38" value="初始化定值&lt;div&gt;void CDeviceTROM::initSettings()&lt;/div&gt;&lt;div&gt;CDataHandlerTROM*p&amp;nbsp; = dynamic_cast&amp;lt;CDataHandlerTROM*&amp;gt;(m_pDataHandler);&lt;br&gt;&lt;/div&gt;&lt;div&gt;加载configdb中表trom_deviceDataParam部分数据到cal_caution与cal_caution1中，类型float【20】&lt;/div&gt;&lt;div&gt;遍历定值表，对每一项：&lt;/div&gt;&lt;div&gt;拼出s_mapLN[TROM]+GetInst()+leaf+setVal&lt;/div&gt;&lt;div&gt;如：&quot;SIML1$SG$THyAlmThd1$setVal&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;GetInst()由CParam构造默认置1&lt;br&gt;&lt;/div&gt;&lt;div&gt;其中：对于dU==“SmpProd”的定值，如果谱图类型m_nDatFileType==2（广东谱图），周期m_nInterval不变，否则m_nInterval*60&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-920" y="3770" width="270" height="340" as="geometry" />
         </mxCell>
       </root>
