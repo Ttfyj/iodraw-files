@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="2906" dy="260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3225" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -478,9 +478,6 @@
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-38" value="初始化定值&lt;div&gt;void CDeviceTROM::initSettings()&lt;/div&gt;&lt;div&gt;CDataHandlerTROM*p&amp;nbsp; = dynamic_cast&amp;lt;CDataHandlerTROM*&amp;gt;(m_pDataHandler);&lt;br&gt;&lt;/div&gt;&lt;div&gt;加载configdb中表trom_deviceDataParam部分数据到cal_caution与cal_caution1中，类型float【20】&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-920" y="3770" width="270" height="340" as="geometry" />
-        </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-40" value="s_mapDOSG" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-730" y="3900" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
