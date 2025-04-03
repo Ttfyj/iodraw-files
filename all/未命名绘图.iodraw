@@ -476,8 +476,8 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-35" value="如果数据目的地是Msg Queue，CServer::getGServerPointer()-&amp;gt;initSettings();&lt;div&gt;遍历设备列表m_vDev,对于每一个设备CDevice：&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(*it)-&amp;gt;initSettings();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(*it)-&amp;gt;initHealth();&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1292.5" y="3760" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-38" value="初始化定值&lt;div&gt;void CDeviceTROM::initSettings()&lt;/div&gt;&lt;div&gt;CDataHandlerTROM*p&amp;nbsp; = dynamic_cast&amp;lt;CDataHandlerTROM*&amp;gt;(m_pDataHandler);&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="3770" width="247.5" height="340" as="geometry" />
+        <mxCell id="-9heCfVYcBA6hiCnGq74-38" value="初始化定值&lt;div&gt;void CDeviceTROM::initSettings()&lt;/div&gt;&lt;div&gt;CDataHandlerTROM*p&amp;nbsp; = dynamic_cast&amp;lt;CDataHandlerTROM*&amp;gt;(m_pDataHandler);&lt;br&gt;&lt;/div&gt;&lt;div&gt;加载configdb中&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-920" y="3770" width="270" height="340" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
