@@ -361,6 +361,12 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-19" target="5A3cxButrTnUzjdrOxAY-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409.3800000000001" y="620" as="sourcePoint" />
+            <mxPoint x="529.9949999999999" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-19" value="CThreadCommand::run()&lt;div&gt;读取settingsxml中的redis_ip到szRedisIP（默认127.0.0.1）中&lt;/div&gt;&lt;div&gt;读取settingsxml中的redis_port到szRedisPort（默认6379）中&lt;br&gt;&lt;/div&gt;&lt;div&gt;尝试连接redis，重试次数6，失败睡眠10s&lt;/div&gt;&lt;div&gt;打开通讯端口CServer::getGServerPointer()-&amp;gt;openPort()&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;循环执行CServer::DispatchAllDev();&amp;nbsp; &amp;nbsp; // 设备自动流程&lt;/div&gt;&lt;div&gt;休眠200ms&lt;/div&gt;&lt;div&gt;CServer::ProcCmd();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80.63" y="155" width="328.75" height="570" as="geometry" />
         </mxCell>
@@ -372,6 +378,9 @@
         </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-23" value="&lt;div&gt;CDevice::openPort()&lt;br&gt;&lt;/div&gt;m_pPort-&amp;gt;Open()&lt;div&gt;判断端口类型与使能状态（默认关闭）&lt;/div&gt;&lt;div&gt;串口类型执行：ret=xCreateFile();&lt;/div&gt;&lt;div&gt;设置串口波特率那些东西&lt;/div&gt;&lt;div&gt;执行成功：m_ePortState=PORT_OPENED;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="350" width="274.98" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-27" value="CServer::DispatchAllDev();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620.005" y="650" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
