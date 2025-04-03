@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="2529" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2167" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -427,7 +427,7 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-11" value="1、读取../MMSSRV/startup.cfg中的iedname并赋值给m_qsIEDName&lt;div&gt;（window版本要准备好路径文件）&lt;div&gt;2、读取infotblxml文件LnZon并将信息存入s_mapLN,s_mapLN[nDeviceType] = szLeaf;&lt;/div&gt;&lt;div&gt;3、读取LdZon信息到s_qsLD//MMS的LD节点名称和s_szLeaf//逻辑设备名&lt;/div&gt;&lt;div&gt;4、读取YcZon信息到s_mapDOYC&lt;/div&gt;&lt;div&gt;《dU、leaf》&lt;/div&gt;&lt;div&gt;5、&lt;span style=&quot;background-color: initial;&quot;&gt;读取YxZon信息到&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s_mapDOYX&lt;/span&gt;&lt;/div&gt;&lt;div&gt;《dU、leaf》&lt;/div&gt;&lt;div&gt;6、&lt;span style=&quot;background-color: initial;&quot;&gt;读取SetZon信息到&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s_mapDOSG&lt;/span&gt;&lt;/div&gt;&lt;div&gt;《dU、leaf》&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;读取CtlZon信息到&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s_mapDOCTL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;《dU、leaf》&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1170" y="3180" width="240" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-13" value="赋值szInfo为“版本”，如&quot;V2.01.093&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-9heCfVYcBA6hiCnGq74-13" value="赋值szInfo为“版本”，如&quot;V2.01.093&quot;&lt;div&gt;将版本信息写入trom\version&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1450" y="3410" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
