@@ -473,6 +473,9 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-9heCfVYcBA6hiCnGq74-35" target="-9heCfVYcBA6hiCnGq74-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9heCfVYcBA6hiCnGq74-35" target="5A3cxButrTnUzjdrOxAY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-35" value="如果数据目的地是Msg Queue，CServer::getGServerPointer()-&amp;gt;initSettings();&lt;div&gt;遍历设备列表m_vDev,对于每一个设备CDevice：&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(*it)-&amp;gt;initSettings();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(*it)-&amp;gt;initHealth();&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1292.5" y="3760" width="320" height="80" as="geometry" />
         </mxCell>
@@ -484,6 +487,9 @@
         </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-1" value="CDeviceTROM::initHealth()&lt;div&gt;啥也没有&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-925" y="4470" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-3" value="啥也没有，白看" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1192.5" y="3930" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
