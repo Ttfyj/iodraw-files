@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="2398" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3225" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -434,30 +434,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-20" value="如果数据目的地是redis，从settingsxml中读取szRedisIP，默认&quot;127.0.0.1&quot;&lt;div&gt;尝试连接redis，端口为6379，连接失败则等待10s重试，重试次数为6次&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1500" y="3760" width="320" height="80" as="geometry" />
+          <mxGeometry x="-1677.5" y="3760" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9heCfVYcBA6hiCnGq74-22" target="-9heCfVYcBA6hiCnGq74-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-22" value="&lt;div&gt;CDataAccess::getGDBPointer()-&amp;gt;LoadSub&lt;/div&gt;&lt;div&gt;加载configdb中red_informations中的信息到vectFieldRef和vectFieldUnit，存放ref/information 以及ref/unit&lt;/div&gt;&lt;div&gt;将&lt;span style=&quot;background-color: initial;&quot;&gt;vectFieldRef以hash存储在key&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;SCAC:HREF:TITLE&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;将&lt;span style=&quot;background-color: initial;&quot;&gt;vectFieldUnit以hash存储在key&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;SCAC:HREF:UNIT&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;读取configdb中trom_system中stationID、stationName以及stationNumber存入&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;strSub,CDevice::m_strStation,CDevice::m_strStationNumber&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1512.5" y="3890" width="345" height="150" as="geometry" />
+          <mxGeometry x="-1690" y="3890" width="345" height="150" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9heCfVYcBA6hiCnGq74-24" target="-9heCfVYcBA6hiCnGq74-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-24" value="加载设备&lt;div&gt;CDataAccess::getGDBPointer()-&amp;gt;LoadDev&lt;/div&gt;&lt;div&gt;查找channel表获取通道号，通过channelID找到trom_device中对应的设备（&lt;span style=&quot;background-color: initial;&quot;&gt;devicetype！=ADAM&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设置检测类型代码，色谱光谱代码为&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;021002&quot;，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;非色谱光谱代码为&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;021004&quot;。&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;总结：根据通道号寻找设备，根据设备类型设置不同的检测类型代码，将检测类型代码和设备id和设备名称一起存入&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;vector&amp;lt;string&amp;gt; &amp;amp;VectDev中&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1495" y="4080" width="310" height="160" as="geometry" />
+          <mxGeometry x="-1672.5" y="4080" width="310" height="160" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9heCfVYcBA6hiCnGq74-26" target="-9heCfVYcBA6hiCnGq74-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-26" value="将上述设备信息，版本信息以hash形式发送到key：&quot;SCAC:HSUB&quot;&lt;div&gt;如：&lt;/div&gt;&lt;div&gt;&lt;div&gt;1) &quot;version_config&quot;&lt;/div&gt;&lt;div&gt;2) &quot;20250402095959&quot;&lt;/div&gt;&lt;div&gt;3) &quot;substation&quot;&lt;/div&gt;&lt;div&gt;4) &quot;&amp;lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;UTF-8\&quot;?&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;substation name=\&quot;\xe5\x8f\x98\xe7\x94\xb5\xe7\xab\x99\&quot; id=\&quot;Sub1\&quot;&amp;gt;&amp;lt;transformer type=\&quot;021002\&quot; id=\&quot;1\&quot; name=\&quot;TROM-600G_\xe8\xae\xbe\xe5\xa4\ x87\&quot; ied=\&quot;1\&quot;/&amp;gt;&amp;lt;/substation&amp;gt;&quot;&lt;/div&gt;&lt;div&gt;5) &quot;version_dps&quot;&lt;/div&gt;&lt;div&gt;6) &quot;V2.01.094-B2&quot;&lt;/div&gt;&lt;div&gt;7) &quot;1&quot;&lt;/div&gt;&lt;div&gt;8) &quot;1&quot;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1509" y="4290" width="339" height="240" as="geometry" />
+          <mxGeometry x="-1686.5" y="4290" width="339" height="240" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-28" value="CServer::getGServerPointer()-&amp;gt;clearRedisData()&lt;div&gt;遍历设备列表，清楚key：&quot;SCAC:HSTAT:%1&quot;的redis实时数据&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1507" y="4590" width="335" height="60" as="geometry" />
+          <mxGeometry x="-1684.5" y="4590" width="335" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-31" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-9heCfVYcBA6hiCnGq74-31" value="数据类型" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1380" y="3650" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
