@@ -515,8 +515,14 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-11" value="SetAutoProc(true);&amp;nbsp; &amp;nbsp; // 自动轮询处理&lt;div&gt;遍历设备列表，对于每一个设备：&lt;/div&gt;&lt;div&gt;m_nOilStartTime = 0;&lt;/div&gt;&lt;div&gt;m_bFirstHMetr=true;&lt;/div&gt;&lt;div&gt;m_bInitRate=true;&lt;br&gt;&lt;/div&gt;&lt;div&gt;m_bGetProjectConf = false。。&lt;br&gt;&lt;/div&gt;&lt;div&gt;并将m_bAutoProc=true&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1816" y="240" width="204" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-13" target="5A3cxButrTnUzjdrOxAY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-13" value="启动指令处理线程&lt;div&gt;m_pThreadCommand-&amp;gt;start();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1811" y="440" width="194" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-15" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1774" y="580" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
