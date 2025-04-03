@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="3004" dy="347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3134" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -370,8 +370,8 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-21" value="CServer::openPort()&lt;div&gt;遍历设备列表，找到&lt;span style=&quot;background-color: initial;&quot;&gt;TROM| TROM600|TROM600_update|TROM600S|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TROM800|TROM600H|TIC_EXP|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SPDCRK|BJSBSH设备，判断设备运行状态（表trom_device中的deviceEnable）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设备激活则运行&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;openPort()&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="310" width="250.01" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-23" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="845.015" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="5A3cxButrTnUzjdrOxAY-23" value="&lt;div&gt;CDevice::openPort()&lt;br&gt;&lt;/div&gt;m_pPort-&amp;gt;Open()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="845.02" y="410" width="224.99" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
