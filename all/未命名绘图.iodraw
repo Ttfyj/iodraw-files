@@ -470,7 +470,7 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-31" value="数据目的地" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1380" y="3650" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-35" value="如果数据目的地是redis，从settingsxml中读取szRedisIP，默认&quot;127.0.0.1&quot;&lt;div&gt;尝试连接redis，端口为6379，连接失败则等待10s重试，重试次数为6次&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-9heCfVYcBA6hiCnGq74-35" value="如果数据目的地是Msg Queue，CServer::getGServerPointer()-&amp;gt;initSettings();&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1292.5" y="3760" width="320" height="80" as="geometry" />
         </mxCell>
       </root>
