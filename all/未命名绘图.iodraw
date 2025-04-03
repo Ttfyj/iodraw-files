@@ -359,7 +359,7 @@
           <mxGeometry x="90" y="40" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-19" value="CThreadCommand::run()&lt;div&gt;读取settingsxml中的redis_ip到szRedisIP（默认127.0.0.1）中&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="101.25" y="155" width="287.5" height="570" as="geometry" />
+          <mxGeometry x="80.63" y="155" width="328.75" height="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
