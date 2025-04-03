@@ -430,7 +430,7 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-19" value="日志线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-530" y="40" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-20" value="如果数据目的地是redis，从settingsxml中读取szRedisIP，默认&quot;127.0.0.1&quot;&lt;div&gt;尝试连接redis，端口为6379，连接失败则等待10s重试，重试次数为6次&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-9heCfVYcBA6hiCnGq74-20" value="如果数据目的地是redis，从settingsxml中读取szRedisIP，默认&quot;127.0.0.1&quot;&lt;div&gt;尝试连接redis，端口为6379，连接失败则等待10s重试，重试次数为6次&lt;/div&gt;&lt;div&gt;加载configdb中red_informations中的信息到vectFieldRef和vectFieldUnit，存放ref/information 以及ref/unit&lt;/div&gt;&lt;div&gt;将&lt;span style=&quot;background-color: initial;&quot;&gt;vectFieldRef以hash存储在key&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;SCAC:HREF:TITLE&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;将&lt;span style=&quot;background-color: initial;&quot;&gt;vectFieldUnit以hash存储在key&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;SCAC:HREF:UNIT&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1500" y="3720" width="320" height="660" as="geometry" />
         </mxCell>
       </root>
