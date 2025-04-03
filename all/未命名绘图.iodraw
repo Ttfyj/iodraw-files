@@ -430,8 +430,8 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-19" value="日志线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-530" y="40" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-20" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1400" y="3720" width="320" height="60" as="geometry" />
+        <mxCell id="-9heCfVYcBA6hiCnGq74-20" value="如果数据目的地是redis" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1500" y="3720" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
