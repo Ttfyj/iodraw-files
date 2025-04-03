@@ -417,7 +417,7 @@
           <mxGeometry x="-1452.5" y="3180" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-11" value="1、读取../MMSSRV/startup.cfg中的iedname并赋值给m_qsIEDName&lt;div&gt;（window版本要准备好路径文件）&lt;div&gt;2、读取infotblxml文件LnZon并将信息存入s_mapLN,s_mapLN[nDeviceType] = szLeaf;&lt;/div&gt;&lt;div&gt;3、读取LdZon信息到s_qsLD//MMS的LD节点名称和s_szLeaf//逻辑设备名&lt;/div&gt;&lt;div&gt;4、读取YcZon信息到s_mapDOYC&lt;/div&gt;&lt;div&gt;《dU、leaf》&lt;/div&gt;&lt;div&gt;5、&lt;span style=&quot;background-color: initial;&quot;&gt;读取YxZon信息到&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s_mapDOYX&lt;/span&gt;&lt;/div&gt;&lt;div&gt;《dU、leaf》&lt;/div&gt;&lt;div&gt;6、&lt;span style=&quot;background-color: initial;&quot;&gt;读取SetZon信息到&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s_mapDOSG&lt;/span&gt;&lt;/div&gt;&lt;div&gt;《dU、leaf》&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;读取CtlZon信息到&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s_mapDOCTL&lt;/span&gt;&lt;/div&gt;&lt;div&gt;《dU、leaf》&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1170" y="3180" width="240" height="460" as="geometry" />
+          <mxGeometry x="-1170" y="3180" width="240" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
