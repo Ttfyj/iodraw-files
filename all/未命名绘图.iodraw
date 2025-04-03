@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="3177" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -373,8 +373,8 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-23" value="&lt;div&gt;CDevice::openPort()&lt;br&gt;&lt;/div&gt;m_pPort-&amp;gt;Open()&lt;div&gt;判断端口类型与使能状态（默认关闭）&lt;/div&gt;&lt;div&gt;串口类型执行：ret=xCreateFile();&lt;/div&gt;&lt;div&gt;设置串口波特率那些东西&lt;/div&gt;&lt;div&gt;执行成功：m_ePortState=PORT_OPENED;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="350" width="274.98" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-27" value="CServer::DispatchAllDev();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="640" width="305" height="60" as="geometry" />
+        <mxCell id="5A3cxButrTnUzjdrOxAY-27" value="&lt;div&gt;&lt;div&gt;&amp;nbsp;循环所有设备，并走自动流程&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 自动流程：状态查询 启动处理 结果数据和谱图处理 报警 时钟同步&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 如果有外部请求，就退出本次循环&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 如果未激活，就跳过该设备&lt;/div&gt;&lt;/div&gt;CServer::DispatchAllDev();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="640" width="305" height="140" as="geometry" />
         </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
