@@ -371,7 +371,7 @@
           <mxGeometry x="450" y="310" width="250.01" height="260" as="geometry" />
         </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-23" value="&lt;div&gt;CDevice::openPort()&lt;br&gt;&lt;/div&gt;m_pPort-&amp;gt;Open()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="845.02" y="410" width="224.99" height="60" as="geometry" />
+          <mxGeometry x="845.02" y="350" width="224.99" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
