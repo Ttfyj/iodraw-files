@@ -358,8 +358,8 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-18" value="&lt;span style=&quot;text-align: left;&quot;&gt;CThreadCommand*&amp;nbsp; &amp;nbsp;m_pThreadCommand;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;// （界面）指令处理线程&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="40" width="310" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-19" value="CThreadCommand::run()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="142.5" y="160" width="205" height="570" as="geometry" />
+        <mxCell id="5A3cxButrTnUzjdrOxAY-19" value="CThreadCommand::run()&lt;div&gt;读取settingsxml中的redis_ip到szRedisIP（默认127.0.0.1）中&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="101.25" y="155" width="287.5" height="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
