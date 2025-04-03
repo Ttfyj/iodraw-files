@@ -370,7 +370,7 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-21" value="CServer::openPort()&lt;div&gt;遍历设备列表，找到&lt;span style=&quot;background-color: initial;&quot;&gt;TROM| TROM600|TROM600_update|TROM600S|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TROM800|TROM600H|TIC_EXP|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SPDCRK|BJSBSH设备，判断设备运行状态（表trom_device中的deviceEnable）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设备激活则运行&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;openPort()&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="310" width="250.01" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-23" value="&lt;div&gt;CDevice::openPort()&lt;br&gt;&lt;/div&gt;m_pPort-&amp;gt;Open()&lt;div&gt;判断端口类型与使能状态（默认关闭）&lt;/div&gt;&lt;div&gt;串口类型执行：ret=xCreateFile();&lt;/div&gt;&lt;div&gt;执行成功：m_ePortState=PORT_OPENED;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-23" value="&lt;div&gt;CDevice::openPort()&lt;br&gt;&lt;/div&gt;m_pPort-&amp;gt;Open()&lt;div&gt;判断端口类型与使能状态（默认关闭）&lt;/div&gt;&lt;div&gt;串口类型执行：ret=xCreateFile();&lt;/div&gt;&lt;div&gt;设置串口波特率那些东西&lt;/div&gt;&lt;div&gt;执行成功：m_ePortState=PORT_OPENED;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="350" width="274.98" height="180" as="geometry" />
         </mxCell>
       </root>
