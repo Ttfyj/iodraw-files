@@ -388,11 +388,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-30" target="5A3cxButrTnUzjdrOxAY-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-30" value="m_lastPollTime=0" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="511.88" y="760" width="241.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-32" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810.005" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-43" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="753.13" y="780" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
