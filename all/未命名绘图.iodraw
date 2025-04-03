@@ -364,7 +364,7 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-19" value="CThreadCommand::run()&lt;div&gt;读取settingsxml中的redis_ip到szRedisIP（默认127.0.0.1）中&lt;/div&gt;&lt;div&gt;读取settingsxml中的redis_port到szRedisPort（默认6379）中&lt;br&gt;&lt;/div&gt;&lt;div&gt;尝试连接redis，重试次数6，失败睡眠10s&lt;/div&gt;&lt;div&gt;打开通讯端口CServer::getGServerPointer()-&amp;gt;openPort()&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80.63" y="155" width="328.75" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-21" value="CServer::openPort()&lt;div&gt;遍历设备列表，&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-21" value="CServer::openPort()&lt;div&gt;遍历设备列表，找到&lt;span style=&quot;background-color: initial;&quot;&gt;TROM| TROM600|TROM600_update|TROM600S|TROM800|TROM600H) || (nDevType == TIC_EXP) || (nDevType == SPDCRK) || (nDevType == BJSBSH))) //[[2019-03-29&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="310" width="250.01" height="260" as="geometry" />
         </mxCell>
       </root>
