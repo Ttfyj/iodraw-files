@@ -509,8 +509,8 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-9" value="CServer::getGServerPointer()-&amp;gt;start();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1824.5" y="140" width="221" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-11" value="SetAutoProc(true);&amp;nbsp; &amp;nbsp; // 自动轮询处理&lt;div&gt;遍历设备列表，对于每一个设备：&lt;/div&gt;&lt;div&gt;m_nOilStartTime = 0;&lt;/div&gt;&lt;div&gt;m_bFirstHMetr=true;&lt;/div&gt;&lt;div&gt;m_bInitRate=true;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1816" y="240" width="204" height="60" as="geometry" />
+        <mxCell id="5A3cxButrTnUzjdrOxAY-11" value="SetAutoProc(true);&amp;nbsp; &amp;nbsp; // 自动轮询处理&lt;div&gt;遍历设备列表，对于每一个设备：&lt;/div&gt;&lt;div&gt;m_nOilStartTime = 0;&lt;/div&gt;&lt;div&gt;m_bFirstHMetr=true;&lt;/div&gt;&lt;div&gt;m_bInitRate=true;&lt;br&gt;&lt;/div&gt;&lt;div&gt;m_bGetProjectConf = false;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1816" y="240" width="204" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
