@@ -448,8 +448,8 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-24" value="加载设备&lt;div&gt;CDataAccess::getGDBPointer()-&amp;gt;LoadDev&lt;/div&gt;&lt;div&gt;查找channel表获取通道号，通过channelID找到trom_device中对应的设备（&lt;span style=&quot;background-color: initial;&quot;&gt;devicetype！=ADAM&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设置检测类型代码，色谱光谱代码为&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;021002&quot;，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;非色谱光谱代码为&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;021004&quot;。&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;总结：根据通道号寻找设备，根据设备类型设置不同的检测类型代码，将检测类型代码和设备id和设备名称一起存入&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;vector&amp;lt;string&amp;gt; &amp;amp;VectDev中&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1495" y="4080" width="310" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-26" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1490" y="4290" width="300" height="60" as="geometry" />
+        <mxCell id="-9heCfVYcBA6hiCnGq74-26" value="将上述设备信息，版本信息发送到" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1489" y="4290" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
