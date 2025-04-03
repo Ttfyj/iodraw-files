@@ -373,6 +373,9 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-23" value="&lt;div&gt;CDevice::openPort()&lt;br&gt;&lt;/div&gt;m_pPort-&amp;gt;Open()&lt;div&gt;判断端口类型与使能状态（默认关闭）&lt;/div&gt;&lt;div&gt;串口类型执行：ret=xCreateFile();&lt;/div&gt;&lt;div&gt;设置串口波特率那些东西&lt;/div&gt;&lt;div&gt;执行成功：m_ePortState=PORT_OPENED;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="350" width="274.98" height="180" as="geometry" />
         </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-27" target="5A3cxButrTnUzjdrOxAY-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-27" value="&lt;div&gt;&lt;div&gt;&amp;nbsp;循环所有设备，并走自动流程&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 自动流程：状态查询 启动处理 结果数据和谱图处理 报警 时钟同步&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 如果有外部请求，就退出本次循环&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 如果未激活，就跳过该设备&lt;/div&gt;&lt;/div&gt;CServer::DispatchAllDev();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="610" width="305" height="120" as="geometry" />
         </mxCell>
@@ -384,6 +387,9 @@
               <mxPoint x="419.38" y="670" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5A3cxButrTnUzjdrOxAY-30" value="m_lastPollTime" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="548.75" y="750" width="241.25" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
