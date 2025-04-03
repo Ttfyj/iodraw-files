@@ -418,6 +418,9 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-13" value="赋值szInfo为“版本”，如&quot;V2.01.093&quot;&lt;div&gt;将版本信息写入trom\version&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1450" y="3410" width="220" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-9heCfVYcBA6hiCnGq74-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9heCfVYcBA6hiCnGq74-15" target="-9heCfVYcBA6hiCnGq74-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-15" value="// 创建业务请求的接收和发送线程&lt;div&gt;(实际就是rpc的接口服务类)&lt;/div&gt;&lt;div&gt;从settingsXML中读取rpc端口，默认9084&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1450" y="3550" width="220" height="80" as="geometry" />
         </mxCell>
@@ -426,6 +429,9 @@
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-19" value="日志线程" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-530" y="40" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-9heCfVYcBA6hiCnGq74-20" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1400" y="3720" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
