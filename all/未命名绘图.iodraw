@@ -416,7 +416,7 @@
           <mxGeometry x="1230" y="660" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KQRDklVRsXAG8kiqz86K-2" value="for循环：未启动自动处理，m_bAutoProc=false，break；&lt;div&gt;迭代完，break；&lt;/div&gt;&lt;div&gt;需要处理网页请求，break；&lt;/div&gt;&lt;div&gt;设备状态非运行，continue；&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="474.38" y="1040" width="316.25" height="60" as="geometry" />
+          <mxGeometry x="474.38" y="1040" width="316.25" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
