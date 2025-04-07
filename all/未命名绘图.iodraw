@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="2889" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3915" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
             <mxGeometry x="-900" y="890" width="140" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LRY_XwZ-jstXK8HR_1DR-17" target="5A3cxButrTnUzjdrOxAY-5">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LRY_XwZ-jstXK8HR_1DR-17" target="5A3cxButrTnUzjdrOxAY-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LRY_XwZ-jstXK8HR_1DR-17" value="// 创建日志发送和接收、及处理线程myApp.init()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -304,82 +304,82 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-9heCfVYcBA6hiCnGq74-35" target="-9heCfVYcBA6hiCnGq74-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9heCfVYcBA6hiCnGq74-35" target="5A3cxButrTnUzjdrOxAY-3">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-9heCfVYcBA6hiCnGq74-35" target="5A3cxButrTnUzjdrOxAY-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-35" value="如果数据目的地是Msg Queue，CServer::getGServerPointer()-&amp;gt;initSettings();&lt;div&gt;遍历设备列表m_vDev,对于每一个设备CDevice：&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(*it)-&amp;gt;initSettings();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;(*it)-&amp;gt;initHealth();&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1292.5" y="3760" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9heCfVYcBA6hiCnGq74-38" target="5A3cxButrTnUzjdrOxAY-1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-9heCfVYcBA6hiCnGq74-38" target="5A3cxButrTnUzjdrOxAY-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-9heCfVYcBA6hiCnGq74-38" value="初始化定值&lt;div&gt;void CDeviceTROM::initSettings()&lt;/div&gt;&lt;div&gt;CDataHandlerTROM*p&amp;nbsp; = dynamic_cast&amp;lt;CDataHandlerTROM*&amp;gt;(m_pDataHandler);&lt;br&gt;&lt;/div&gt;&lt;div&gt;加载configdb中表trom_deviceDataParam部分数据到cal_caution与cal_caution1中，类型float【20】&lt;/div&gt;&lt;div&gt;遍历定值表，对每一项：&lt;/div&gt;&lt;div&gt;拼出s_mapLN[TROM]+GetInst()+leaf+setVal&lt;/div&gt;&lt;div&gt;如：&quot;SIML1$SG$THyAlmThd1$setVal&quot;&amp;nbsp;&lt;/div&gt;&lt;div&gt;GetInst()由CParam构造默认置1&lt;br&gt;&lt;/div&gt;&lt;div&gt;其中：对于dU==“SmpProd”的定值，如果谱图类型m_nDatFileType==2（广东谱图），周期m_nInterval不变，否则m_nInterval*60&lt;/div&gt;&lt;div&gt;获取周期时间，然后以Key = &quot;SCAC:MMS:HVCHG&quot;&lt;/div&gt;&lt;div&gt;Field=&quot;&lt;span style=&quot;background-color: initial;&quot;&gt;s_mapLN[TROM]+GetInst()+leaf+setVal&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Value=&quot;&lt;span style=&quot;background-color: initial;&quot;&gt;m_nInterval&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;的形式发送到&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_RedisObj&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;对于&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;qsSetName == &quot;NextWorkTime&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Value=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_nSetNextWrokTime同样形式发送redis&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;对于&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;qsSetName == &quot;StartWork&quot;，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将Value=0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;对于&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;qsSetName == &quot;ReStart&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;将Value=0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;对于qsSetName == &quot;SmpTimes&quot;，从Value=数据库中smptimes1&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;对于&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;qsSetName == &quot;AutoAcce&quot;，Value=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;GetRuntype()，默认为0（构造函数实现）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;若有满足条件的dU：将浓度警戒门限&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_fThresholdConCaution=Value&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;浓度报警门限&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_fThresholdConCritical=Value&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;绝对产气率警戒门限&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_fThresholdAbsCaution&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;绝对产气率报警门限&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_fThresholdAbsCritical&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;相对产气率警戒门限&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_fThresholdRelaCaution&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;相对产气率报警门限&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;m_fThresholdRelaCritical&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;对于dU==&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MstWrnThd、&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MstAlmThd，Value赋值为0&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;对于dU=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;C2H2Wrn2Alm&quot;, &quot;H2Wrn2Alm&quot;, &quot;THCWrn2Alm&quot;，加载数据库内容到&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;gas_caution&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;根据循环次数，将不同的Value发送到redis&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;dU==&quot;OutageVal1&quot;, &quot;OutageVal2&quot;, &quot;OutageVal3&quot;, &quot;OutageVal4&quot;同理&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;总结：遍历定值表，对于里面不同的dU，设置不同的Value，设置field&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;=&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;s_mapLN[TROM]+GetInst()+leaf+setVal&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;发送到key=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SCAC:MMS:HVCHG中&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-920" y="3770" width="280" height="650" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-1" value="CDeviceTROM::initHealth()&lt;div&gt;啥也没有&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-1" value="CDeviceTROM::initHealth()&lt;div&gt;啥也没有&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-925" y="4470" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-3" value="啥也没有，白看" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-3" value="啥也没有，白看" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1192.5" y="3930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-5" value="myApp.run();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-5" value="myApp.run();" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-760" y="1020" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-8" target="5A3cxButrTnUzjdrOxAY-9">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-8" target="5A3cxButrTnUzjdrOxAY-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-8" value="&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;myApp.run();&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-8" value="&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;myApp.run();&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1774" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-9" target="5A3cxButrTnUzjdrOxAY-11">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-9" target="5A3cxButrTnUzjdrOxAY-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-9" value="CServer::getGServerPointer()-&amp;gt;start();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-9" value="CServer::getGServerPointer()-&amp;gt;start();" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1824.5" y="140" width="221" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-11" target="5A3cxButrTnUzjdrOxAY-13">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-11" target="5A3cxButrTnUzjdrOxAY-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-11" value="SetAutoProc(true);&amp;nbsp; &amp;nbsp; // 自动轮询处理&lt;div&gt;遍历设备列表，对于每一个设备：&lt;/div&gt;&lt;div&gt;m_nOilStartTime = 0;&lt;/div&gt;&lt;div&gt;m_bFirstHMetr=true;&lt;/div&gt;&lt;div&gt;m_bInitRate=true;&lt;br&gt;&lt;/div&gt;&lt;div&gt;m_bGetProjectConf = false。。&lt;br&gt;&lt;/div&gt;&lt;div&gt;并将m_bAutoProc=true&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-11" value="SetAutoProc(true);&amp;nbsp; &amp;nbsp; // 自动轮询处理&lt;div&gt;遍历设备列表，对于每一个设备：&lt;/div&gt;&lt;div&gt;m_nOilStartTime = 0;&lt;/div&gt;&lt;div&gt;m_bFirstHMetr=true;&lt;/div&gt;&lt;div&gt;m_bInitRate=true;&lt;br&gt;&lt;/div&gt;&lt;div&gt;m_bGetProjectConf = false。。&lt;br&gt;&lt;/div&gt;&lt;div&gt;并将m_bAutoProc=true&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1816" y="240" width="204" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-13" target="5A3cxButrTnUzjdrOxAY-15">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-13" target="5A3cxButrTnUzjdrOxAY-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-13" value="启动指令处理线程&lt;div&gt;m_pThreadCommand-&amp;gt;start();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-13" value="启动指令处理线程&lt;div&gt;m_pThreadCommand-&amp;gt;start();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1811" y="410" width="194" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-15" value="启动快速响应设备处理线程&lt;div&gt;m_pThreadSpeed-&amp;gt;start();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-15" value="启动快速响应设备处理线程&lt;div&gt;m_pThreadSpeed-&amp;gt;start();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1801" y="530" width="174" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-18" target="5A3cxButrTnUzjdrOxAY-19">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-18" target="5A3cxButrTnUzjdrOxAY-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-18" value="&lt;span style=&quot;text-align: left;&quot;&gt;CThreadCommand*&amp;nbsp; &amp;nbsp;m_pThreadCommand;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;// （界面）指令处理线程&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-18" value="&lt;span style=&quot;text-align: left;&quot;&gt;CThreadCommand*&amp;nbsp; &amp;nbsp;m_pThreadCommand;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;// （界面）指令处理线程&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="40" width="310" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-19" target="5A3cxButrTnUzjdrOxAY-21">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-19" target="5A3cxButrTnUzjdrOxAY-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-19" value="CThreadCommand::run()&lt;div&gt;读取settingsxml中的redis_ip到szRedisIP（默认127.0.0.1）中&lt;/div&gt;&lt;div&gt;读取settingsxml中的redis_port到szRedisPort（默认6379）中&lt;br&gt;&lt;/div&gt;&lt;div&gt;尝试连接redis，重试次数6，失败睡眠10s&lt;/div&gt;&lt;div&gt;打开通讯端口CServer::getGServerPointer()-&amp;gt;openPort()&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;循环执行CServer::DispatchAllDev();&amp;nbsp; &amp;nbsp; // 设备自动流程&lt;/div&gt;&lt;div&gt;休眠200ms&lt;/div&gt;&lt;div&gt;CServer::ProcCmd();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-19" value="CThreadCommand::run()&lt;div&gt;读取settingsxml中的redis_ip到szRedisIP（默认127.0.0.1）中&lt;/div&gt;&lt;div&gt;读取settingsxml中的redis_port到szRedisPort（默认6379）中&lt;br&gt;&lt;/div&gt;&lt;div&gt;尝试连接redis，重试次数6，失败睡眠10s&lt;/div&gt;&lt;div&gt;打开通讯端口CServer::getGServerPointer()-&amp;gt;openPort()&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;循环执行CServer::DispatchAllDev();&amp;nbsp; &amp;nbsp; // 设备自动流程&lt;/div&gt;&lt;div&gt;休眠200ms&lt;/div&gt;&lt;div&gt;CServer::ProcCmd();&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80.63" y="155" width="328.75" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-21" target="5A3cxButrTnUzjdrOxAY-23">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-21" target="5A3cxButrTnUzjdrOxAY-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-21" value="CServer::openPort()&lt;div&gt;遍历设备列表，找到&lt;span style=&quot;background-color: initial;&quot;&gt;TROM| TROM600|TROM600_update|TROM600S|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TROM800|TROM600H|TIC_EXP|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SPDCRK|BJSBSH设备，判断设备运行状态（表trom_device中的deviceEnable）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设备激活则运行&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;openPort()&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-21" value="CServer::openPort()&lt;div&gt;遍历设备列表，找到&lt;span style=&quot;background-color: initial;&quot;&gt;TROM| TROM600|TROM600_update|TROM600S|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;TROM800|TROM600H|TIC_EXP|&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SPDCRK|BJSBSH设备，判断设备运行状态（表trom_device中的deviceEnable）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;设备激活则运行&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;openPort()&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="310" width="250.01" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-23" value="&lt;div&gt;CDevice::openPort()&lt;br&gt;&lt;/div&gt;m_pPort-&amp;gt;Open()&lt;div&gt;判断端口类型与使能状态（默认关闭）&lt;/div&gt;&lt;div&gt;串口类型执行：ret=xCreateFile();&lt;/div&gt;&lt;div&gt;设置串口波特率那些东西&lt;/div&gt;&lt;div&gt;执行成功：m_ePortState=PORT_OPENED;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-23" value="&lt;div&gt;CDevice::openPort()&lt;br&gt;&lt;/div&gt;m_pPort-&amp;gt;Open()&lt;div&gt;判断端口类型与使能状态（默认关闭）&lt;/div&gt;&lt;div&gt;串口类型执行：ret=xCreateFile();&lt;/div&gt;&lt;div&gt;设置串口波特率那些东西&lt;/div&gt;&lt;div&gt;执行成功：m_ePortState=PORT_OPENED;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="730" y="350" width="274.98" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-27" target="5A3cxButrTnUzjdrOxAY-30">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-27" target="5A3cxButrTnUzjdrOxAY-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-27" value="&lt;div&gt;&lt;div&gt;&amp;nbsp;循环所有设备，并走自动流程&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 自动流程：状态查询 启动处理 结果数据和谱图处理 报警 时钟同步&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 如果有外部请求，就退出本次循环&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 如果未激活，就跳过该设备&lt;/div&gt;&lt;/div&gt;CServer::DispatchAllDev();" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-27" value="&lt;div&gt;&lt;div&gt;&amp;nbsp;循环所有设备，并走自动流程&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 自动流程：状态查询 启动处理 结果数据和谱图处理 报警 时钟同步&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 如果有外部请求，就退出本次循环&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 如果未激活，就跳过该设备&lt;/div&gt;&lt;/div&gt;CServer::DispatchAllDev();" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="610" width="305" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-29" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-29" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="409.38" y="670" as="sourcePoint" />
             <mxPoint x="479.38" y="670" as="targetPoint" />
@@ -388,26 +388,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-30" target="5A3cxButrTnUzjdrOxAY-32">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-30" target="5A3cxButrTnUzjdrOxAY-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-30" target="5A3cxButrTnUzjdrOxAY-44">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-30" target="5A3cxButrTnUzjdrOxAY-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-30" value="上次轮询时间m_lastPollTime=0" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-30" value="上次轮询时间m_lastPollTime=0" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="511.88" y="760" width="241.25" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-32" value="毫无意义的判断" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-32" value="毫无意义的判断" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="810.005" y="770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-43" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-43" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="758.13" y="780" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-44" value="m_lastPollTime= QDateTime::currentDateTime().toTime_t()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-44" value="m_lastPollTime= QDateTime::currentDateTime().toTime_t()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="488.75" y="900" width="287.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5A3cxButrTnUzjdrOxAY-46" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="5A3cxButrTnUzjdrOxAY-46" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="630" y="850" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KQRDklVRsXAG8kiqz86K-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="660" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
