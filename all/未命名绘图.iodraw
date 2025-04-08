@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="3529" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2879" dy="1490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -460,12 +460,6 @@
         </mxCell>
         <mxCell id="XpQcM3LvVNDPa4W54wng-9" value="&lt;div&gt;Generate_YV2(unsigned char *messageOUT, unsigned int &amp;amp;nCount,unsigned char address ,unsigned char Command,unsigned char startAddress,unsigned char number)&lt;/div&gt;&lt;div&gt;总结：整体作用就是拼报文，第一个设备地址address，第二个命令码，第三个保留位，第四个起始地址，第五个保留位，&lt;/div&gt;&lt;div&gt;第六个寄存器数量，第七第八校验位，按照小端模式存储，低字节在前，高字节在后&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2810" y="1527.5" width="680" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XpQcM3LvVNDPa4W54wng-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2770" y="1650" as="sourcePoint" />
-            <mxPoint x="2810" y="1650" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="XpQcM3LvVNDPa4W54wng-12" value="&lt;div&gt;Generate_YV2(unsigned char *messageOUT, unsigned int &amp;amp;nCount,unsigned char address ,unsigned char Command,unsigned char startAddress,unsigned char number)&lt;/div&gt;&lt;div&gt;总结：整体作用就是拼报文，第一个设备地址address，第二个命令码，第三个保留位，第四个起始地址，第五个保留位，&lt;/div&gt;&lt;div&gt;第六个寄存器数量，第七第八校验位，按照小端模式存储，低字节在前，高字节在后&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2810" y="1620" width="680" height="60" as="geometry" />
