@@ -440,6 +440,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="XpQcM3LvVNDPa4W54wng-4" value="YkDeviceControl();&lt;div&gt;先判断通信是否中断，判断逻辑：&lt;/div&gt;&lt;div&gt;看通讯重试/次记录m_nSendTimesRec是否大于10&lt;/div&gt;&lt;div&gt;strKey = &quot;SCAC:MMS:HVCTL&quot;;&amp;nbsp; &amp;nbsp; //控制&lt;br&gt;&lt;/div&gt;&lt;div&gt;迭代infotblxml中ctl控制：s_mapDOCTL&lt;/div&gt;&lt;div&gt;只将qsCtlName != &quot;StartYkCy&quot;ctl控制命令传入redis_ctrl&lt;/div&gt;&lt;div&gt;总结：如果有遥控命令，看其中是否有&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;StartYkCy&quot;，有则执行&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1330" width="360" height="230" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
