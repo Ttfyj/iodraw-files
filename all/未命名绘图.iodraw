@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="2998" dy="1437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2910" dy="1391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -429,6 +429,9 @@
         </mxCell>
         <mxCell id="KQRDklVRsXAG8kiqz86K-8" value="strKey = &quot;SCAC:MMS:HVCTL&quot;;&amp;nbsp; &amp;nbsp; //控制" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="638" y="-630" width="302" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="XpQcM3LvVNDPa4W54wng-1" value="&lt;div&gt;//处理定值&lt;/div&gt;CDeviceTROM::procSettings()：&lt;div&gt;YkDeviceControl();&lt;br&gt;&lt;/div&gt;&lt;div&gt;遍历定值SG：s_mapDOSG&lt;/div&gt;&lt;div&gt;从key=&quot;SCAC:MMS:HVSG&quot;中获取field对应的值，如：field=&quot;MONT$SIML1$SG$AutoAcce$setVal&quot;&lt;/div&gt;&lt;div&gt;值为NULL，continue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1040" width="283" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
