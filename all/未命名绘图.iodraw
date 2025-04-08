@@ -458,8 +458,8 @@
         <mxCell id="XpQcM3LvVNDPa4W54wng-7" value="&lt;div&gt;//封装报文&lt;br&gt;&lt;/div&gt;bool CProtocolTROM::GenerateFrame(GTW_CMD_TYP eCMD, unsigned char* cBuf, unsigned int &amp;amp;nCount, unsigned int &amp;amp;nRCount)&lt;div&gt;判断传入的eCMD（枚举类型）值的范围，128-175之间，如果等于127，return&amp;nbsp;Generate_YV2(cBuf, nCount,m_dnAddr,0x01,0x01,0x20);&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2030" y="1425" width="740" height="265" as="geometry" />
         </mxCell>
-        <mxCell id="XpQcM3LvVNDPa4W54wng-9" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3160" y="1527.5" width="120" height="60" as="geometry" />
+        <mxCell id="XpQcM3LvVNDPa4W54wng-9" value="&lt;div&gt;Generate_YV2(unsigned char *messageOUT, unsigned int &amp;amp;nCount,unsigned char address ,unsigned char Command,unsigned char startAddress,unsigned char number)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="1527.5" width="680" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
