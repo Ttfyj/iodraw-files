@@ -446,8 +446,8 @@
         <mxCell id="XpQcM3LvVNDPa4W54wng-4" value="&lt;div&gt;手动启动设备处理&lt;/div&gt;&lt;div&gt;*前提设备无新数据，处于空闲状态&lt;/div&gt;&lt;div&gt;*发送启动指令&lt;/div&gt;&lt;div&gt;*记录启动时间&lt;/div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;*返回值 ---- bool&amp;nbsp;&lt;/span&gt;manualStart（const GTW_CMD_DU &amp;amp;du）&lt;div&gt;先判断传入参数类型，if ((du.m_uType != SMP_MANUAL_TEST) &amp;amp;&amp;amp;(du.m_uType != SMP_CHANGEOIL))判断状态字节m_nStatus，非空闲不启动，将二次启动标记位m_bSecStart置为false&lt;/div&gt;&lt;div&gt;TransCmd(HAND_ON)发送握手指令&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1150" y="1290" width="360" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="XpQcM3LvVNDPa4W54wng-5" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1580" y="1290" width="350" height="145" as="geometry" />
+        <mxCell id="XpQcM3LvVNDPa4W54wng-5" value="TransCmd(HAND_ON)，参数类型：GTW_CMD_TYP eCMD&lt;div&gt;使用try-catch（。。。）捕获所有异常&lt;/div&gt;&lt;div&gt;try：。获取通道类型赋值给typ&lt;/div&gt;&lt;div&gt;执行m_pProtocol-&amp;gt;GenerateFrame(eCMD, cTBuf, nTCount, nRCountTemp)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1290" width="350" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
