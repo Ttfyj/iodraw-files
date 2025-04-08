@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="2916" dy="1255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3354" dy="1732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -452,7 +452,7 @@
         <mxCell id="XpQcM3LvVNDPa4W54wng-5" value="TransCmd(HAND_ON)，参数类型：GTW_CMD_TYP eCMD&lt;div&gt;使用try-catch（。。。）捕获所有异常&lt;/div&gt;&lt;div&gt;try：。获取通道类型赋值给typ&lt;/div&gt;&lt;div&gt;执行m_pProtocol-&amp;gt;GenerateFrame(eCMD, cTBuf, nTCount, nRCountTemp)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1580" y="1290" width="410" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="XpQcM3LvVNDPa4W54wng-7" value="&lt;div&gt;//封装报文&lt;br&gt;&lt;/div&gt;bool CProtocolTROM::GenerateFrame(GTW_CMD_TYP eCMD, unsigned char* cBuf, unsigned int &amp;amp;nCount, unsigned int &amp;amp;nRCount)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="XpQcM3LvVNDPa4W54wng-7" value="&lt;div&gt;//封装报文&lt;br&gt;&lt;/div&gt;bool CProtocolTROM::GenerateFrame(GTW_CMD_TYP eCMD, unsigned char* cBuf, unsigned int &amp;amp;nCount, unsigned int &amp;amp;nRCount)&lt;div&gt;判断传入的eCMD（枚举类型）值的范围，128-175之间，如果等于127，return&amp;nbsp;Generate_YV2(cBuf, nCount,m_dnAddr,0x01,0x01,0x20);&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2030" y="1425" width="715" height="265" as="geometry" />
         </mxCell>
       </root>
