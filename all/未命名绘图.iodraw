@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="3362" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6666" dy="3279" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -403,7 +403,7 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-43" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="758.13" y="780" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KQRDklVRsXAG8kiqz86K-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5A3cxButrTnUzjdrOxAY-44" target="KQRDklVRsXAG8kiqz86K-2">
+        <mxCell id="KQRDklVRsXAG8kiqz86K-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5A3cxButrTnUzjdrOxAY-44" target="KQRDklVRsXAG8kiqz86K-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-44" value="m_lastPollTime= QDateTime::currentDateTime().toTime_t()" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -412,22 +412,22 @@
         <mxCell id="5A3cxButrTnUzjdrOxAY-46" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="630" y="850" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KQRDklVRsXAG8kiqz86K-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KQRDklVRsXAG8kiqz86K-2" target="KQRDklVRsXAG8kiqz86K-4">
+        <mxCell id="KQRDklVRsXAG8kiqz86K-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KQRDklVRsXAG8kiqz86K-2" target="KQRDklVRsXAG8kiqz86K-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KQRDklVRsXAG8kiqz86K-2" value="for循环：未启动自动处理，m_bAutoProc=false，break；&lt;div&gt;迭代完，break；&lt;/div&gt;&lt;div&gt;需要处理网页请求，break；&lt;/div&gt;&lt;div&gt;设备状态非运行，continue；&lt;/div&gt;&lt;div&gt;获取设备类型，如果不是油色谱相关设备就continue&lt;/div&gt;&lt;div&gt;procSettings();&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //首先处理定值&lt;br&gt;&lt;/div&gt;&lt;div&gt;procInit()&amp;nbsp; // 该设备开始自动流程处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;getProjectConfig();&amp;nbsp; //获取工程配置&lt;br&gt;&lt;/div&gt;&lt;div&gt;procState();// 状态查询&lt;br&gt;&lt;/div&gt;&lt;div&gt;procClock();&amp;nbsp; &amp;nbsp; // 时钟功能同步&lt;br&gt;&lt;/div&gt;&lt;div&gt;procResult();// 结果数据和谱图处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;procStart();// 启动处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;procAlm();&amp;nbsp; // 报警处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;procFinish();&amp;nbsp; // 该设备结束自动流程处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;it++，等待开始下一个设备循环&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KQRDklVRsXAG8kiqz86K-2" value="for循环：未启动自动处理，m_bAutoProc=false，break；&lt;div&gt;迭代完，break；&lt;/div&gt;&lt;div&gt;需要处理网页请求，break；&lt;/div&gt;&lt;div&gt;设备状态非运行，continue；&lt;/div&gt;&lt;div&gt;获取设备类型，如果不是油色谱相关设备就continue&lt;/div&gt;&lt;div&gt;procSettings();&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //首先处理定值&lt;br&gt;&lt;/div&gt;&lt;div&gt;procInit()&amp;nbsp; // 该设备开始自动流程处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;getProjectConfig();&amp;nbsp; //获取工程配置&lt;br&gt;&lt;/div&gt;&lt;div&gt;procState();// 状态查询&lt;br&gt;&lt;/div&gt;&lt;div&gt;procClock();&amp;nbsp; &amp;nbsp; // 时钟功能同步&lt;br&gt;&lt;/div&gt;&lt;div&gt;procResult();// 结果数据和谱图处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;procStart();// 启动处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;procAlm();&amp;nbsp; // 报警处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;procFinish();&amp;nbsp; // 该设备结束自动流程处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;it++，等待开始下一个设备循环&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="474.38" y="1040" width="316.25" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="KQRDklVRsXAG8kiqz86K-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KQRDklVRsXAG8kiqz86K-4" target="KQRDklVRsXAG8kiqz86K-6">
+        <mxCell id="KQRDklVRsXAG8kiqz86K-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KQRDklVRsXAG8kiqz86K-4" target="KQRDklVRsXAG8kiqz86K-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KQRDklVRsXAG8kiqz86K-4" value="&lt;div&gt;//处理定值&lt;/div&gt;CDeviceTROM::procSettings()：&lt;div&gt;YkDeviceControl();&lt;br&gt;&lt;/div&gt;&lt;div&gt;遍历定值SG：s_mapDOSG&lt;/div&gt;&lt;div&gt;从key=&quot;SCAC:MMS:HVSG&quot;中获取field对应的值，如：field=&quot;MONT$SIML1$SG$AutoAcce$setVal&quot;&lt;/div&gt;&lt;div&gt;值为NULL，continue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KQRDklVRsXAG8kiqz86K-4" value="&lt;div&gt;//处理定值&lt;/div&gt;CDeviceTROM::procSettings()：&lt;div&gt;YkDeviceControl();&lt;br&gt;&lt;/div&gt;&lt;div&gt;遍历定值SG：s_mapDOSG&lt;/div&gt;&lt;div&gt;从key=&quot;SCAC:MMS:HVSG&quot;中获取field对应的值，如：field=&quot;MONT$SIML1$SG$AutoAcce$setVal&quot;&lt;/div&gt;&lt;div&gt;值为NULL，continue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="827" y="1040" width="283" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="KQRDklVRsXAG8kiqz86K-6" value="YkDeviceControl();&lt;div&gt;先判断通信是否中断，判断逻辑：&lt;/div&gt;&lt;div&gt;看通讯重试/次记录m_nSendTimesRec是否大于10&lt;/div&gt;&lt;div&gt;strKey = &quot;SCAC:MMS:HVCTL&quot;;&amp;nbsp; &amp;nbsp; //控制&lt;br&gt;&lt;/div&gt;&lt;div&gt;迭代infotblxml中ctl控制：s_mapDOCTL&lt;/div&gt;&lt;div&gt;只将qsCtlName != &quot;StartYkCy&quot;ctl控制命令传入redis_ctrl&lt;/div&gt;&lt;div&gt;总结：如果有遥控命令，看其中是否有&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;StartYkCy&quot;，有则执行&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KQRDklVRsXAG8kiqz86K-6" value="YkDeviceControl();&lt;div&gt;先判断通信是否中断，判断逻辑：&lt;/div&gt;&lt;div&gt;看通讯重试/次记录m_nSendTimesRec是否大于10&lt;/div&gt;&lt;div&gt;strKey = &quot;SCAC:MMS:HVCTL&quot;;&amp;nbsp; &amp;nbsp; //控制&lt;br&gt;&lt;/div&gt;&lt;div&gt;迭代infotblxml中ctl控制：s_mapDOCTL&lt;/div&gt;&lt;div&gt;只将qsCtlName != &quot;StartYkCy&quot;ctl控制命令传入redis_ctrl&lt;/div&gt;&lt;div&gt;总结：如果有遥控命令，看其中是否有&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;StartYkCy&quot;，有则执行&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="1020" width="360" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="KQRDklVRsXAG8kiqz86K-8" value="strKey = &quot;SCAC:MMS:HVCTL&quot;;&amp;nbsp; &amp;nbsp; //控制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KQRDklVRsXAG8kiqz86K-8" value="strKey = &quot;SCAC:MMS:HVCTL&quot;;&amp;nbsp; &amp;nbsp; //控制" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="638" y="-630" width="302" height="200" as="geometry" />
         </mxCell>
       </root>
