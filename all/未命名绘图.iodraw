@@ -453,7 +453,7 @@
           <mxGeometry x="1580" y="1290" width="410" height="330" as="geometry" />
         </mxCell>
         <mxCell id="XpQcM3LvVNDPa4W54wng-7" value="bool CProtocolTROM::GenerateFrame(GTW_CMD_TYP eCMD, unsigned char* cBuf, unsigned int &amp;amp;nCount, unsigned int &amp;amp;nRCount)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2215" y="1425" width="120" height="60" as="geometry" />
+          <mxGeometry x="2030" y="1425" width="715" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
