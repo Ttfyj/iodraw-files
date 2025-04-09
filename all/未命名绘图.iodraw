@@ -301,9 +301,6 @@
         <mxCell id="-9heCfVYcBA6hiCnGq74-31" value="数据目的地" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1380" y="3650" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-9heCfVYcBA6hiCnGq74-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-9heCfVYcBA6hiCnGq74-35" target="-9heCfVYcBA6hiCnGq74-38" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="5A3cxButrTnUzjdrOxAY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-9heCfVYcBA6hiCnGq74-35" target="5A3cxButrTnUzjdrOxAY-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
