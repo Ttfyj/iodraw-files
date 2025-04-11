@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="K6dO711ibsPyOGAny3xz">
-    <mxGraphModel dx="4344" dy="2099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3568" dy="1712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -418,6 +418,9 @@
         <mxCell id="KQRDklVRsXAG8kiqz86K-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KQRDklVRsXAG8kiqz86K-2" target="KQRDklVRsXAG8kiqz86K-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Wqv-Os1bO7F4Obq7cM9v-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KQRDklVRsXAG8kiqz86K-2" target="Wqv-Os1bO7F4Obq7cM9v-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KQRDklVRsXAG8kiqz86K-2" value="for循环：未启动自动处理，m_bAutoProc=false，break；&lt;div&gt;迭代完，break；&lt;/div&gt;&lt;div&gt;需要处理网页请求，break；&lt;/div&gt;&lt;div&gt;设备状态非运行，continue；&lt;/div&gt;&lt;div&gt;获取设备类型，如果不是油色谱相关设备就continue&lt;/div&gt;&lt;div&gt;procSettings();&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; //首先处理定值&lt;br&gt;&lt;/div&gt;&lt;div&gt;procInit()&amp;nbsp; // 该设备开始自动流程处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;getProjectConfig();&amp;nbsp; //获取工程配置&lt;br&gt;&lt;/div&gt;&lt;div&gt;procState();// 状态查询&lt;br&gt;&lt;/div&gt;&lt;div&gt;procClock();&amp;nbsp; &amp;nbsp; // 时钟功能同步&lt;br&gt;&lt;/div&gt;&lt;div&gt;procResult();// 结果数据和谱图处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;procStart();// 启动处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;procAlm();&amp;nbsp; // 报警处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;procFinish();&amp;nbsp; // 该设备结束自动流程处理&lt;br&gt;&lt;/div&gt;&lt;div&gt;it++，等待开始下一个设备循环&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="474.38" y="1040" width="316.25" height="300" as="geometry" />
         </mxCell>
@@ -472,6 +475,9 @@
             <mxPoint x="2770" y="1650" as="sourcePoint" />
             <mxPoint x="2820" y="1600" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Wqv-Os1bO7F4Obq7cM9v-1" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="572.505" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
