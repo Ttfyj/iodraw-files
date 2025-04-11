@@ -476,7 +476,7 @@
             <mxPoint x="2820" y="1600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wqv-Os1bO7F4Obq7cM9v-1" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Wqv-Os1bO7F4Obq7cM9v-1" value="procInit()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="572.505" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
