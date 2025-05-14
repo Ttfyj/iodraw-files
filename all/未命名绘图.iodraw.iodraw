@@ -136,8 +136,17 @@
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-52" value="false" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="685" y="908" width="50" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E1QZklqvkFQsNeR1T_cZ-54" target="E1QZklqvkFQsNeR1T_cZ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-54" value="是否预约启动" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1010" width="80" height="80" as="geometry" />
+          <mxGeometry x="575" y="1010" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-55" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-57" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="685" y="1018" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
