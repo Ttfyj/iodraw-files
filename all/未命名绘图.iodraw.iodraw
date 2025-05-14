@@ -31,6 +31,9 @@
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-15" value="标准" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="320" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E1QZklqvkFQsNeR1T_cZ-18" target="E1QZklqvkFQsNeR1T_cZ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-18" value="高可靠" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-260" y="330" width="120" height="60" as="geometry" />
         </mxCell>
@@ -62,6 +65,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="640" y="540" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-30" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="460" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
