@@ -18,8 +18,17 @@
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-2" value="147" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="310" width="210" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E1QZklqvkFQsNeR1T_cZ-6" target="E1QZklqvkFQsNeR1T_cZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-6" value="复测" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="450" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-9" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="458" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
