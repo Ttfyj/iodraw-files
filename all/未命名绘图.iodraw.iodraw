@@ -10,14 +10,16 @@
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="E1QZklqvkFQsNeR1T_cZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E1QZklqvkFQsNeR1T_cZ-2" target="E1QZklqvkFQsNeR1T_cZ-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E1QZklqvkFQsNeR1T_cZ-2" target="E1QZklqvkFQsNeR1T_cZ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-2" value="147" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="310" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="E1QZklqvkFQsNeR1T_cZ-4" value="复测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="460" width="120" height="60" as="geometry" />
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-6" value="复测" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="450" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
