@@ -164,7 +164,22 @@
           <mxGeometry x="740" y="1420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-62" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1020" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E1QZklqvkFQsNeR1T_cZ-65" target="E1QZklqvkFQsNeR1T_cZ-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-65" value="加载上次启动时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E1QZklqvkFQsNeR1T_cZ-67" target="E1QZklqvkFQsNeR1T_cZ-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-67" value="计算下次启动时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-68" value="存表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
