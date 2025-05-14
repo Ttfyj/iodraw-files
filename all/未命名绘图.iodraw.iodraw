@@ -49,8 +49,10 @@
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-24" value="复测" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="610" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="E1QZklqvkFQsNeR1T_cZ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E1QZklqvkFQsNeR1T_cZ-25" target="E1QZklqvkFQsNeR1T_cZ-40">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="E1QZklqvkFQsNeR1T_cZ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E1QZklqvkFQsNeR1T_cZ-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-25" value="记录复测启动时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="760" width="120" height="60" as="geometry" />
@@ -93,9 +95,6 @@
         </mxCell>
         <mxCell id="E1QZklqvkFQsNeR1T_cZ-39" value="复测" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-440" y="578" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="E1QZklqvkFQsNeR1T_cZ-40" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="900" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
