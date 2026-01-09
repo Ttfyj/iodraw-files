@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="DGFF1MTvqvjbvnha_4df">
+    <mxGraphModel dx="1981" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I-7axaxqr33a1LAwVGnr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I-7axaxqr33a1LAwVGnr-1" target="I-7axaxqr33a1LAwVGnr-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-1" value="运行" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I-7axaxqr33a1LAwVGnr-2" target="I-7axaxqr33a1LAwVGnr-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="364" y="50" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I-7axaxqr33a1LAwVGnr-4" target="I-7axaxqr33a1LAwVGnr-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I-7axaxqr33a1LAwVGnr-4" target="I-7axaxqr33a1LAwVGnr-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-4" value="是否预约" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="326" y="330" width="176" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="I-7axaxqr33a1LAwVGnr-6" target="I-7axaxqr33a1LAwVGnr-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-6" value="预约启动" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="520" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-10" value="周期性启动" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-12" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="490" y="338" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-13" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="280" y="338" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="I-7axaxqr33a1LAwVGnr-17" value="&lt;div&gt;总结高可靠设备的启动方式有两种：周期性启动和预约启动&lt;/div&gt;周期性启动：以启动时刻为基准时间，下次启动为基准时间加上周期，由高可靠设备自行控制启动&lt;div&gt;预约启动：相当于高可靠设备是受预约控制的启动，按照预约时间进行启动&lt;/div&gt;&lt;div&gt;tw网页控制启动以及定值下发控制启动都会改变高可靠设备的启动时间，若其非预约，则下次启动时间将按照上次启动时间为基准来计算&lt;br&gt;&lt;div&gt;高可靠设备若处于周期性启动的方式，则不受规转控制自行启动&lt;/div&gt;&lt;/div&gt;&lt;div&gt;设备运行若影响预约，则会按照本次设备运行启动的时间作为基准时间，若不影响预约，则只会运行一次，下一次是预约时间启动&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="670" width="740" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
