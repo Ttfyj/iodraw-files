@@ -40,8 +40,11 @@
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-11" value="文件服务" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Jgu4KIV_VP8tIv3YKM8J-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Jgu4KIV_VP8tIv3YKM8J-14" target="Jgu4KIV_VP8tIv3YKM8J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-14" value="遥控" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
