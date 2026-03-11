@@ -22,7 +22,7 @@
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Jgu4KIV_VP8tIv3YKM8J-2" target="Jgu4KIV_VP8tIv3YKM8J-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jgu4KIV_VP8tIv3YKM8J-2" value="dnp3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Jgu4KIV_VP8tIv3YKM8J-2" value="dnp3从站" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-4" value="read" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -51,6 +51,9 @@
         </mxCell>
         <mxCell id="Po-STaoUX8E_wJy6JGl7-1" value="定义数据库Group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Po-STaoUX8E_wJy6JGl7-3" value="read" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="218" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
