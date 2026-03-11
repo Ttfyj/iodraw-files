@@ -7,7 +7,7 @@
         <mxCell id="Po-STaoUX8E_wJy6JGl7-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jgu4KIV_VP8tIv3YKM8J-1" target="Po-STaoUX8E_wJy6JGl7-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jgu4KIV_VP8tIv3YKM8J-1" value="infotbl" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="Jgu4KIV_VP8tIv3YKM8J-1" value="infotbl配置文件" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Jgu4KIV_VP8tIv3YKM8J-2" target="Jgu4KIV_VP8tIv3YKM8J-1" edge="1">
