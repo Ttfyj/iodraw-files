@@ -49,7 +49,7 @@
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-14" value="遥控（定值）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="790" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Po-STaoUX8E_wJy6JGl7-1" value="数据库Group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Po-STaoUX8E_wJy6JGl7-1" value="定义数据库Group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
