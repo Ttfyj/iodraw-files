@@ -31,7 +31,7 @@
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Jgu4KIV_VP8tIv3YKM8J-5" target="Jgu4KIV_VP8tIv3YKM8J-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jgu4KIV_VP8tIv3YKM8J-5" value="数据库Group" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Jgu4KIV_VP8tIv3YKM8J-5" value="遥信遥测" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="690" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-7" value="redis" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
@@ -46,7 +46,7 @@
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.825;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Jgu4KIV_VP8tIv3YKM8J-14" target="Jgu4KIV_VP8tIv3YKM8J-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jgu4KIV_VP8tIv3YKM8J-14" value="遥控" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Jgu4KIV_VP8tIv3YKM8J-14" value="遥控（定值）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="790" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Po-STaoUX8E_wJy6JGl7-1" value="数据库Group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
