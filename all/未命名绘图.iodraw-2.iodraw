@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Po-STaoUX8E_wJy6JGl7-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jgu4KIV_VP8tIv3YKM8J-1" target="Po-STaoUX8E_wJy6JGl7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-1" value="infotbl" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="140" width="120" height="60" as="geometry" />
         </mxCell>
@@ -45,6 +48,9 @@
         </mxCell>
         <mxCell id="Jgu4KIV_VP8tIv3YKM8J-14" value="遥控" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="790" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Po-STaoUX8E_wJy6JGl7-1" value="数据库Group" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
